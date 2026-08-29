@@ -23,7 +23,7 @@ namespace EpicBattlesImageDownloader
         public void OnLoad(GameManager games) { }
         public Guid Id => Guid.Parse("76d85e91-b9e0-4b7e-95b1-213204571c4a");
         public string Name => "Epic Battles Online Image Downloader";
-        public Version Version => Version.Parse("0.2.0.0");
+        public Version Version => Version.Parse("0.3.0.0");
         public Version RequiredByOctgnVersion => Version.Parse("3.1.240.0");
     }
 
