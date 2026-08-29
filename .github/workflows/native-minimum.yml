@@ -32,6 +32,13 @@ jobs:
           nuget restore octgn-src/OCTGN.sln
           msbuild octgn-src/octgnFX/o8build/o8build.csproj /m /p:Configuration=Release /p:Platform=AnyCPU
 
+      - name: Build Epic Battles image downloader
+        shell: pwsh
+        run: |
+          msbuild plugin/EpicBattlesImageDownloader/EpicBattlesImageDownloader.csproj /m /p:Configuration=Release /p:Platform=AnyCPU /p:OCTGN_DIR="$env:GITHUB_WORKSPACE\octgn-src\octgnFX\Octgn.Core\bin\Release"
+          New-Item -ItemType Directory -Force dist/Plugins/EpicBattlesImageDownloader | Out-Null
+          Copy-Item plugin/EpicBattlesImageDownloader/bin/Release/EpicBattlesImageDownloader.dll dist/Plugins/EpicBattlesImageDownloader/
+
       - name: Validate with OCTGN
         shell: pwsh
         run: |
@@ -50,13 +57,13 @@ jobs:
           $package = Get-ChildItem dist/*.nupkg | Select-Object -First 1
           if (-not $package) { throw 'OCTGN did not produce a package.' }
           New-Item -ItemType Directory -Force artifacts | Out-Null
-          Copy-Item $package.FullName artifacts/Epic-Battles-Online-One-Set-0.1.0.0.o8g
+          Copy-Item $package.FullName artifacts/Epic-Battles-Online-One-Set-0.1.1.0.o8g
 
       - name: Verify package contents
         shell: pwsh
         run: |
           Add-Type -AssemblyName System.IO.Compression.FileSystem
-          $package = Resolve-Path 'artifacts/Epic-Battles-Online-One-Set-0.1.0.0.o8g'
+          $package = Resolve-Path 'artifacts/Epic-Battles-Online-One-Set-0.1.1.0.o8g'
           $zip = [System.IO.Compression.ZipFile]::OpenRead($package)
           try {
             $entries = @($zip.Entries.FullName)
@@ -64,11 +71,12 @@ jobs:
             $sets = @($entries | Where-Object { $_ -match '^def/Sets/.+/set\.xml$' })
             if ($sets.Count -ne 1) { throw "Expected exactly one set; found $($sets.Count)." }
             if ('def/Resources/Cardback.jpg' -notin $entries) { throw 'Missing Cardback.jpg' }
+            if ('def/Plugins/EpicBattlesImageDownloader/EpicBattlesImageDownloader.dll' -notin $entries) { throw 'Missing image downloader plugin.' }
           }
           finally { $zip.Dispose() }
 
       - uses: actions/upload-artifact@v4
         with:
           name: Epic-Battles-Online-One-Set
-          path: artifacts/Epic-Battles-Online-One-Set-0.1.0.0.o8g
+          path: artifacts/Epic-Battles-Online-One-Set-0.1.1.0.o8g
           if-no-files-found: error
