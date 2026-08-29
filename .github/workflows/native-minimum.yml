@@ -3,7 +3,7 @@ name: Native Minimum OCTGN Build
 on:
   workflow_dispatch:
   push:
-    branches: [epic-battles-online-minimum]
+    branches: [main]
 
 jobs:
   build:
@@ -72,4 +72,3 @@ jobs:
           name: Epic-Battles-Online-One-Set
           path: artifacts/Epic-Battles-Online-One-Set-0.1.0.0.o8g
           if-no-files-found: error
-
