@@ -1,7 +1,0 @@
-<set name="Set 1" id="00000000-0000-0000-0000-000000000001" hidden="false" game="00000000-0000-0000-0000-000000000000">
-  <cards>
-    <card name="Example Card" id="00000001-0000-0000-0000-000000000000">
-      <alternateimage name="default" src="https://JoePerry.github.io/octgn-game/sets/set1/images/example-card.jpg" />
-    </card>
-  </cards>
-</set>

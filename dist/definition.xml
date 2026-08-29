@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game name="Epic Battles Online" id="336cc7ef-c808-5f75-a22e-0171564da1e3" version="0.1.0.0" tags="Street Fighter, Mortal Kombat, Tekken, Marvel Vs Capcom, TCG, CCG, Fan Set" description="Unofficial OCTGN implementation of Epic Battles TCG. Plugin and fan sets by Strichnine and Lifeless. Contributors: Ehrmac and Honeybee." authors="Strichnine and Lifeless; contributors Ehrmac and Honeybee" setsurl="https://github.com/JoePerry/octgn-game/tree/epic-battles-online/dist/Sets" gameurl="https://github.com/JoePerry/octgn-game" iconurl="https://raw.githubusercontent.com/JoePerry/octgn-game/epic-battles-online/dist/Resources/Cardback.jpg" octgnVersion="3.1.240.0" scriptVersion="3.1.0.2" markersize="25" usetwosidedtable="False">
+  <scripts>
+    <script src="Scripts/actions.py" />
+  </scripts>
+  <events />
+  <sounds />
+  <fonts />
+  <symbols />
+  <markers />
+  <proxygen definitionsrc="Proxies/proxydef.xml" />
+  <phases>
+    <phase name="Draw" icon="Resources/hand.png" />
+    <phase name="Set" icon="Resources/hand.png" />
+    <phase name="Battle" icon="Resources/hand.png" />
+    <phase name="Discard" icon="Resources/hand.png" />
+    <phase name="End" icon="Resources/hand.png" />
+  </phases>
+  <documents />
+  <gameModes />
+  <globalvariables />
+  <card back="Resources/Cardback.jpg" front="Resources/front.png" width="63" height="88" cornerRadius="2">
+    <property name="ImageFile" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Number" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Rarity" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Card Type" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Attack" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Attack Type" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Link" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Cost" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Damage" type="String" textKind="Free" hidden="False" ignoreText="False" />
+    <property name="Text" type="RichText" textKind="Free" hidden="False" ignoreText="False" />
+  </card>
+  <table name="Table" visibility="undefined" ordered="False" width="800" height="650" background="Resources/wood.jpg" backgroundStyle="uniformToFill">
+    <groupaction menu="Flip a Coin" shortcut="ctrl+shift+r" execute="flipCoin" />
+    <groupaction menu="Roll a 6-sided Die" shortcut="ctrl+r" execute="rollDice" />
+    <groupaction menu="Pass" shortcut="tab" execute="passTurn" />
+    <cardaction menu="Rotate Card" default="True" batchExecute="rotate" />
+    <cardaction menu="Flip Card Face Up/Down" shortcut="ctrl+f" batchExecute="flip" />
+    <cardaction menu="Add/Remove Highlight" shortcut="ctrl+a" batchExecute="highlightCard" />
+  </table>
+  <player>
+    <group name="Hand" visibility="me" ordered="False" icon="Resources/hand.png" viewState="expanded">
+      <cardaction menu="Discard Card" shortcut="del" execute="discard" />
+      <groupaction menu="Randomly Discard a Card" execute="randomDiscard" />
+    </group>
+    <group name="Deck" visibility="none" icon="Resources/deck.png">
+      <groupaction menu="Draw" shortcut="ctrl+d" default="True" execute="draw" />
+      <groupaction menu="Draw X Cards" shortcut="ctrl+shift+d" execute="drawMany" />
+      <groupaction menu="Shuffle" shortcut="ctrl+s" execute="shuffle" />
+    </group>
+    <group name="Energy Pile" visibility="all" icon="Resources/deck.png" />
+    <group name="Discard Pile" visibility="all" icon="Resources/discard.png" />
+    <group name="Removed From Game" visibility="all" icon="Resources/discard.png" />
+    <group name="Side Deck" visibility="me" icon="Resources/deck.png" />
+    <group name="Character" visibility="all" icon="Resources/hand.png" />
+  </player>
+  <shared />
+  <deck>
+    <section name="Character" group="Character" />
+    <section name="Side Deck" group="Side Deck" />
+    <section name="Main Deck" group="Deck" />
+  </deck>
+</game>
+

@@ -1,0 +1,75 @@
+name: Native Minimum OCTGN Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [epic-battles-online-minimum]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Check out Epic Battles Online
+        uses: actions/checkout@v4
+
+      - name: Check out the OCTGN revision used by the working Ranma build
+        uses: actions/checkout@v4
+        with:
+          repository: octgn/OCTGN
+          ref: 086a8f5a91d413dcce215af6af909cec998d34ce
+          path: octgn-src
+          submodules: recursive
+
+      - name: Set up NuGet
+        uses: NuGet/setup-nuget@v2
+
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Restore and build native OCTGN packager
+        shell: pwsh
+        run: |
+          nuget restore octgn-src/OCTGN.sln
+          msbuild octgn-src/octgnFX/o8build/o8build.csproj /m /p:Configuration=Release /p:Platform=AnyCPU
+
+      - name: Validate with OCTGN
+        shell: pwsh
+        run: |
+          $builder = Resolve-Path 'octgn-src/octgnFX/o8build/bin/Release/o8build.exe'
+          $definition = (Resolve-Path 'dist').Path
+          & $builder -d $definition -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Build with OCTGN
+        shell: pwsh
+        run: |
+          $builder = Resolve-Path 'octgn-src/octgnFX/o8build/bin/Release/o8build.exe'
+          $definition = (Resolve-Path 'dist').Path
+          & $builder -d $definition
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $package = Get-ChildItem dist/*.nupkg | Select-Object -First 1
+          if (-not $package) { throw 'OCTGN did not produce a package.' }
+          New-Item -ItemType Directory -Force artifacts | Out-Null
+          Copy-Item $package.FullName artifacts/Epic-Battles-Online-One-Set-0.1.0.0.o8g
+
+      - name: Verify package contents
+        shell: pwsh
+        run: |
+          Add-Type -AssemblyName System.IO.Compression.FileSystem
+          $package = Resolve-Path 'artifacts/Epic-Battles-Online-One-Set-0.1.0.0.o8g'
+          $zip = [System.IO.Compression.ZipFile]::OpenRead($package)
+          try {
+            $entries = @($zip.Entries.FullName)
+            if ('def/definition.xml' -notin $entries) { throw 'Missing definition.xml' }
+            $sets = @($entries | Where-Object { $_ -match '^def/Sets/.+/set\.xml$' })
+            if ($sets.Count -ne 1) { throw "Expected exactly one set; found $($sets.Count)." }
+            if ('def/Resources/Cardback.jpg' -notin $entries) { throw 'Missing Cardback.jpg' }
+          }
+          finally { $zip.Dispose() }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Epic-Battles-Online-One-Set
+          path: artifacts/Epic-Battles-Online-One-Set-0.1.0.0.o8g
+          if-no-files-found: error
+
