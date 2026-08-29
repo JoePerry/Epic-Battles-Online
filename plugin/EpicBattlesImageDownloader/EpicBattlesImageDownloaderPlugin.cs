@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using Octgn.Core.DataExtensionMethods;
 using Octgn.Core.DataManagers;
 using Octgn.Core.Plugin;
@@ -23,7 +25,7 @@ namespace EpicBattlesImageDownloader
         public void OnLoad(GameManager games) { }
         public Guid Id => Guid.Parse("76d85e91-b9e0-4b7e-95b1-213204571c4a");
         public string Name => "Epic Battles Online Image Downloader";
-        public Version Version => Version.Parse("0.7.0.0");
+        public Version Version => Version.Parse("0.8.0.0");
         public Version RequiredByOctgnVersion => Version.Parse("3.1.240.0");
     }
 
@@ -56,10 +58,22 @@ namespace EpicBattlesImageDownloader
         {
             _catalog = catalog; Title = "Epic Battles Image Downloader"; Width = 560; Height = 420;
             MinWidth = 480; MinHeight = 320; WindowStartupLocation = WindowStartupLocation.CenterScreen;
-            var root = new DockPanel { Margin = new Thickness(12) }; Content = root;
-            var heading = new TextBlock { Text = "Epic Battles Online", FontSize = 18, FontWeight = FontWeights.Bold, Margin = new Thickness(0, 0, 0, 8) };
+            Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/EpicBattlesImageDownloader;component/Assets/poster-mvc1_big.jpg")))
+            {
+                Stretch = Stretch.UniformToFill,
+                AlignmentX = AlignmentX.Center,
+                AlignmentY = AlignmentY.Center
+            };
+            var root = new DockPanel
+            {
+                Margin = new Thickness(12),
+                Background = new SolidColorBrush(Color.FromArgb(210, 12, 12, 18))
+            };
+            Content = root;
+            var heading = new TextBlock { Text = "Epic Battles Online", Foreground = Brushes.White, FontSize = 18, FontWeight = FontWeights.Bold, Margin = new Thickness(10, 8, 10, 8) };
             DockPanel.SetDock(heading, Dock.Top); root.Children.Add(heading);
             _status.Text = "Select a set to download its card images.";
+            _status.Foreground = Brushes.White; _status.Margin = new Thickness(10, 8, 10, 10);
             DockPanel.SetDock(_status, Dock.Bottom); root.Children.Add(_status);
             var buttons = new StackPanel { Orientation = Orientation.Horizontal, HorizontalAlignment = HorizontalAlignment.Right, Margin = new Thickness(0, 10, 0, 0) };
             DockPanel.SetDock(buttons, Dock.Bottom); root.Children.Add(buttons);
@@ -69,6 +83,8 @@ namespace EpicBattlesImageDownloader
             _sets.SelectionChanged += (s, e) => _selected.IsEnabled = _sets.SelectedItem != null;
             foreach (var set in catalog.Sets) _sets.Items.Add(set);
             if (_sets.Items.Count > 0) _sets.SelectedIndex = 0;
+            _sets.Margin = new Thickness(10, 0, 10, 0);
+            _sets.Background = new SolidColorBrush(Color.FromArgb(225, 248, 248, 248));
             root.Children.Add(_sets);
         }
 
@@ -97,14 +113,14 @@ namespace EpicBattlesImageDownloader
         private static HttpClient CreateClient()
         {
             var c = new HttpClient { Timeout = TimeSpan.FromSeconds(45) };
-            c.DefaultRequestHeaders.UserAgent.ParseAdd("OCTGN-Epic-Battles-Image-Downloader/0.7.0");
+            c.DefaultRequestHeaders.UserAgent.ParseAdd("OCTGN-Epic-Battles-Image-Downloader/0.8.0");
             c.DefaultRequestHeaders.CacheControl = new System.Net.Http.Headers.CacheControlHeaderValue { NoCache = true, NoStore = true };
             return c;
         }
 
         public static async Task<Catalog> LoadAsync(Game game)
         {
-            var json = await Client.GetStringAsync(BaseUrl + "manifest.json?v=0.7.0.0");
+            var json = await Client.GetStringAsync(BaseUrl + "manifest.json?v=0.8.0.0");
             var manifest = new JavaScriptSerializer().Deserialize<Manifest>(json);
             Guid gameId;
             if (manifest == null || !Guid.TryParse(manifest.gameGuid, out gameId) || gameId != EpicBattlesImageDownloaderPlugin.GameId)

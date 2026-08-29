@@ -22,5 +22,6 @@
     <Reference Include="PresentationFramework" /><Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup><Compile Include="EpicBattlesImageDownloaderPlugin.cs" /></ItemGroup>
+  <ItemGroup><Resource Include="Assets\poster-mvc1_big.jpg" /></ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
