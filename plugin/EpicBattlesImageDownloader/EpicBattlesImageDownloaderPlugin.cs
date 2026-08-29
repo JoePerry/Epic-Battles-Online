@@ -23,7 +23,7 @@ namespace EpicBattlesImageDownloader
         public void OnLoad(GameManager games) { }
         public Guid Id => Guid.Parse("76d85e91-b9e0-4b7e-95b1-213204571c4a");
         public string Name => "Epic Battles Online Image Downloader";
-        public Version Version => Version.Parse("0.3.0.0");
+        public Version Version => Version.Parse("0.3.1.0");
         public Version RequiredByOctgnVersion => Version.Parse("3.1.240.0");
     }
 
@@ -59,7 +59,7 @@ namespace EpicBattlesImageDownloader
             var root = new DockPanel { Margin = new Thickness(12) }; Content = root;
             var heading = new TextBlock { Text = "Epic Battles Online", FontSize = 18, FontWeight = FontWeights.Bold, Margin = new Thickness(0, 0, 0, 8) };
             DockPanel.SetDock(heading, Dock.Top); root.Children.Add(heading);
-            _status.Text = "Select Tekken Promos, then download its six card images.";
+            _status.Text = "Select a set to download its card images.";
             DockPanel.SetDock(_status, Dock.Bottom); root.Children.Add(_status);
             var buttons = new StackPanel { Orientation = Orientation.Horizontal, HorizontalAlignment = HorizontalAlignment.Right, Margin = new Thickness(0, 10, 0, 0) };
             DockPanel.SetDock(buttons, Dock.Bottom); root.Children.Add(buttons);
@@ -94,11 +94,17 @@ namespace EpicBattlesImageDownloader
     {
         private const string BaseUrl = "https://raw.githubusercontent.com/JoePerry/Epic-Battles-Online/main/image-host/";
         private static readonly HttpClient Client = CreateClient();
-        private static HttpClient CreateClient() { var c = new HttpClient { Timeout = TimeSpan.FromSeconds(45) }; c.DefaultRequestHeaders.UserAgent.ParseAdd("OCTGN-Epic-Battles-Image-Downloader/0.1.1"); return c; }
+        private static HttpClient CreateClient()
+        {
+            var c = new HttpClient { Timeout = TimeSpan.FromSeconds(45) };
+            c.DefaultRequestHeaders.UserAgent.ParseAdd("OCTGN-Epic-Battles-Image-Downloader/0.3.1");
+            c.DefaultRequestHeaders.CacheControl = new System.Net.Http.Headers.CacheControlHeaderValue { NoCache = true, NoStore = true };
+            return c;
+        }
 
         public static async Task<Catalog> LoadAsync(Game game)
         {
-            var json = await Client.GetStringAsync(BaseUrl + "manifest.json");
+            var json = await Client.GetStringAsync(BaseUrl + "manifest.json?v=0.3.1.0");
             var manifest = new JavaScriptSerializer().Deserialize<Manifest>(json);
             Guid gameId;
             if (manifest == null || !Guid.TryParse(manifest.gameGuid, out gameId) || gameId != EpicBattlesImageDownloaderPlugin.GameId)
