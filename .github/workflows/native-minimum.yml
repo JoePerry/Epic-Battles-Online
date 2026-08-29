@@ -66,19 +66,19 @@ jobs:
           $package = Get-ChildItem dist/*.nupkg | Select-Object -First 1
           if (-not $package) { throw 'OCTGN did not produce a package.' }
           New-Item -ItemType Directory -Force artifacts | Out-Null
-          Copy-Item $package.FullName artifacts/Epic-Battles-Online-0.5.0.0.o8g
+          Copy-Item $package.FullName artifacts/Epic-Battles-Online-0.6.0.0.o8g
 
       - name: Verify package contents
         shell: pwsh
         run: |
           Add-Type -AssemblyName System.IO.Compression.FileSystem
-          $package = Resolve-Path 'artifacts/Epic-Battles-Online-0.5.0.0.o8g'
+          $package = Resolve-Path 'artifacts/Epic-Battles-Online-0.6.0.0.o8g'
           $zip = [System.IO.Compression.ZipFile]::OpenRead($package)
           try {
             $entries = @($zip.Entries.FullName)
             if ('def/definition.xml' -notin $entries) { throw 'Missing definition.xml' }
             $sets = @($entries | Where-Object { $_ -match '^def/Sets/.+/set\.xml$' })
-            if ($sets.Count -ne 5) { throw "Expected Mortal Kombat Round 1, Mortal Kombat Premiere, Street Fighter, Tekken, and Tekken Promos; found $($sets.Count) sets." }
+            if ($sets.Count -ne 6) { throw "Expected Street Fighter 2, Mortal Kombat Round 1, Mortal Kombat Premiere, Street Fighter, Tekken, and Tekken Promos; found $($sets.Count) sets." }
             if ('def/Resources/Cardback.jpg' -notin $entries) { throw 'Missing Cardback.jpg' }
             if ('def/Plugins/EpicBattlesImageDownloader/EpicBattlesImageDownloader.dll' -notin $entries) { throw 'Missing image downloader plugin.' }
           }
@@ -86,6 +86,6 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: Epic-Battles-Online-0.5.0.0
-          path: artifacts/Epic-Battles-Online-0.5.0.0.o8g
+          name: Epic-Battles-Online-0.6.0.0
+          path: artifacts/Epic-Battles-Online-0.6.0.0.o8g
           if-no-files-found: error
