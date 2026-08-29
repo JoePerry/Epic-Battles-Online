@@ -469,197 +469,21 @@
       <property name="Link" value="" />
       <property name="Text" value="Heal 2 from the bottom of your discards." />
     </card>
-    <card id="bd936689-60d7-5f00-aa25-40da0af436ac" name="Alex's Air Stampede EX">
-      <property name="ImageFile" value="SFr2-38" />
-      <property name="Number" value="038" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Kick" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="10" />
-      <property name="Link" value="" />
-      <property name="Text" value="HIT - Your rival's attacks deal -2 damage this step." />
-    </card>
-    <card id="55e19f3c-64b1-5381-babf-79298c7d716f" name="Blanka's Rolling Attack EX">
-      <property name="ImageFile" value="SFr2-39" />
-      <property name="Number" value="039" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Slam" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="10" />
-      <property name="Link" value="" />
-      <property name="Text" value="Counts as an electric." />
-    </card>
-    <card id="4901f126-3b5e-5025-9a3f-1177a098d23f" name="Chun-li's Spinning Bird Kick EX">
-      <property name="ImageFile" value="SFr2-40" />
-      <property name="Number" value="040" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Kick" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="12" />
-      <property name="Link" value="" />
-      <property name="Text" value="HIT - Your Launchers deal +2 damage this step." />
-    </card>
-    <card id="a40e1d25-d09b-5373-8a67-d390e33a72ef" name="Dhalsim's Yoga Fire EX">
-      <property name="ImageFile" value="SFr2-41" />
-      <property name="Number" value="041" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Projectile" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="10" />
-      <property name="Link" value="" />
-      <property name="Text" value="HIT - Your projectiles cost -2 energy this step." />
-    </card>
-    <card id="b272e567-6af9-5dac-8e3c-83e0899bc8db" name="Dudley's Machine Gun Blow EX">
-      <property name="ImageFile" value="SFr2-42" />
-      <property name="Number" value="042" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Punch" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="8" />
-      <property name="Link" value="" />
-      <property name="Text" value="When you flip an event this step your rival discards the top 2 cards of their deck." />
-    </card>
-    <card id="a1868fdc-c075-5191-a242-ec7432525b33" name="E. Honda's Sumo Headbut EX">
-      <property name="ImageFile" value="SFr2-43" />
-      <property name="Number" value="043" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Slam" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="8" />
-      <property name="Link" value="" />
-      <property name="Text" value="You may reveal a block from your hand when you perform this attack to have it deal +4 damage." />
-    </card>
-    <card id="64109539-553e-56ee-ab91-71f6f7c35ead" name="Gill's Cyber Lariat EX">
-      <property name="ImageFile" value="SFr2-44" />
-      <property name="Number" value="044" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Slam" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="10" />
-      <property name="Link" value="" />
-      <property name="Text" value="HIT - Your attacks count as being +1 cost for your effects this step." />
-    </card>
-    <card id="c758e29c-bb9b-59ab-9886-2af6177a4845" name="Guile's Flash Kick EX">
-      <property name="ImageFile" value="SFr2-45" />
-      <property name="Number" value="045" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Kick" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="12" />
-      <property name="Link" value="Projectile" />
-      <property name="Text" value="HIT - Search your discard pile for a projectile and draw it." />
-    </card>
-    <card id="85331cee-1582-5369-a334-3926489dd41c" name="Hugo's Giant Palm Bomber EX">
-      <property name="ImageFile" value="SFr2-46" />
-      <property name="Number" value="046" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Punch" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="10" />
-      <property name="Link" value="" />
-      <property name="Text" value="All of your rival’s attacks cost +1 during their next combo." />
-    </card>
-    <card id="02257113-e83e-5a51-9ae2-51e0eaf24580" name="Ibuki's Kuna EX">
-      <property name="ImageFile" value="SFr2-47" />
-      <property name="Number" value="047" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Projectile" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="8" />
-      <property name="Link" value="" />
-      <property name="Text" value="HIT - Your rival may not draw cards this step." />
-    </card>
-    <card id="0e6029c2-a3bb-5df6-a33c-9513d2278404" name="Ken's Hurricane Kick EX">
-      <property name="ImageFile" value="SFr2-48" />
-      <property name="Number" value="048" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Kick" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="8" />
-      <property name="Link" value="" />
-      <property name="Text" value="Switch any number of cards from your hand with cards from the top of your deck." />
-    </card>
-    <card id="26bffca5-5dff-5d82-9a04-55f6b81517ec" name="Ryu's Hadoken EX">
-      <property name="ImageFile" value="SFr2-49" />
-      <property name="Number" value="049" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Projectile" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="8" />
-      <property name="Link" value="" />
-      <property name="Text" value="Your rival discards the top 4 cards of their deck." />
-    </card>
-    <card id="0854a11a-b249-5616-aaad-2645bc9abe47" name="Sean's Dragon Smash EX">
-      <property name="ImageFile" value="SFr2-50" />
-      <property name="Number" value="050" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Punch" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="12" />
-      <property name="Link" value="" />
-      <property name="Text" value="HIT - If your rival has 5 or more energy they cannot gain energy this step." />
-    </card>
-    <card id="91b8293e-4774-50bf-af4b-c3a410a7a967" name="Twelve's A.X.E EX">
-      <property name="ImageFile" value="SFr2-51" />
-      <property name="Number" value="051" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Weapon" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="10" />
-      <property name="Link" value="" />
-      <property name="Text" value="Set any number of events from your energy pile." />
-    </card>
-    <card id="671e6ad2-23e8-5708-8792-a6dccdabe25e" name="Zangief's Banishing Flat EX">
-      <property name="ImageFile" value="SFr2-52" />
-      <property name="Number" value="052" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="Punch" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="10" />
-      <property name="Link" value="" />
-      <property name="Text" value="HIT - Your rival's projectiles deal 0 damage this step." />
-    </card>
-    <card id="831669eb-f20a-5a2a-9697-6360c0875871" name="Elena's Rhino Horn EX">
-      <property name="ImageFile" value="SFr2-53" />
-      <property name="Number" value="053" />
-      <property name="Rarity" value="Rare" />
-      <property name="Card Type" value="Attack" />
-      <property name="Attack" value="Low Attack" />
-      <property name="Attack Type" value="Kick" />
-      <property name="Cost" value="2" />
-      <property name="Damage" value="6" />
-      <property name="Link" value="" />
-      <property name="Text" value="When you Heal this step during a combo double the healing amount." />
-    </card>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   </cards>
 </set>

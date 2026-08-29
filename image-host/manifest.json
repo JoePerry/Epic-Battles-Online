@@ -1659,16 +1659,6 @@
     },
     {
       "setGuid": "ec6acc94-42df-5284-bfa9-c3f67c82ebb9",
-      "cardGuid": "0e6029c2-a3bb-5df6-a33c-9513d2278404",
-      "sha256": "03242cb663ff2d21a1a932841f6e8b6704ce3ebaf10d4e7a2069382c02d6eb84"
-    },
-    {
-      "setGuid": "ec6acc94-42df-5284-bfa9-c3f67c82ebb9",
-      "cardGuid": "26bffca5-5dff-5d82-9a04-55f6b81517ec",
-      "sha256": "fb467019e7bc4f4e71b37b92ff0c4dca30e87288a53e47338ffb489c4de2f7e9"
-    },
-    {
-      "setGuid": "ec6acc94-42df-5284-bfa9-c3f67c82ebb9",
       "cardGuid": "293152bb-489b-5be6-bb24-5d5bdea5baee",
       "sha256": "11e1070482595f93121c7263b2833c784e65cd34026210d0795cc7a50688821c"
     },
@@ -1751,11 +1741,6 @@
       "setGuid": "ec6acc94-42df-5284-bfa9-c3f67c82ebb9",
       "cardGuid": "b04e7de8-bfbf-5048-81be-7c1ac9ab00a4",
       "sha256": "d28f79b234dad26e16964841a77c0129f477bb522d6b949b9af20b8a08e662d1"
-    },
-    {
-      "setGuid": "ec6acc94-42df-5284-bfa9-c3f67c82ebb9",
-      "cardGuid": "b272e567-6af9-5dac-8e3c-83e0899bc8db",
-      "sha256": "cdbab18173d12a39f503042493bbe7c5e659e14ea450c0110b66a1cd8a4e46d6"
     },
     {
       "setGuid": "ec6acc94-42df-5284-bfa9-c3f67c82ebb9",
