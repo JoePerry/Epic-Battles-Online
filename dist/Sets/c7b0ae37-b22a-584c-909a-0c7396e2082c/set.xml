@@ -1,0 +1,1026 @@
+<?xml version='1.0' encoding='utf-8'?>
+<set name="Marvel Vs Capcom" id="c7b0ae37-b22a-584c-909a-0c7396e2082c" gameId="336cc7ef-c808-5f75-a22e-0171564da1e3" gameVersion="0.7.0.0" version="1.0">
+  <cards>
+    <card id="d89027d0-725b-5c9e-b88f-f8bee63b7f05" name="Captain Commando">
+      <property name="ImageFile" value="MVC1_01" />
+      <property name="Number" value="1" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="--" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="When you draw your first Event you may set it and draw another card. ♦ Your attacks deal +1 damage for each event you have used this turn." />
+    </card>
+    <card id="d5650768-59a7-520e-b36f-199e286755bc" name="Chun-li">
+      <property name="ImageFile" value="MVC1_02" />
+      <property name="Number" value="2" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="--" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="Kicks you perform can link into kicks.   (*)The 3rd kick you play in each combo gains Launcher. (*) Attacks you perform while your opponent is launched deal +1 damage." />
+    </card>
+    <card id="47025e68-9579-5636-b6b4-47146bb66d6c" name="Jin Saotome">
+      <property name="ImageFile" value="MVC1_03" />
+      <property name="Number" value="3" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="--" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="" />
+    </card>
+    <card id="ce968de4-39a4-5521-93ee-e0ecfcc5802a" name="Mega Man">
+      <property name="ImageFile" value="MVC1_04" />
+      <property name="Number" value="4" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="--" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="Mega Man Only (*) HIT – You may return this card to your hand instead of placing it into your energy pile. BLOCKED – If this card was played from your discard pile, remove it from the game." />
+    </card>
+    <card id="7bff2d8f-222e-5668-83dd-465e9c980207" name="Morrigan">
+      <property name="ImageFile" value="MVC1_05" />
+      <property name="Number" value="5" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="--" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="When you finish a combo that hit Heal X. X = the number of hits in that combo. ♦ Your rival discards the top card of their deck when they play a block." />
+    </card>
+    <card id="30335644-991c-534c-a9b7-39b57e6e1983" name="Morrigan" alternate="7bff2d8f-222e-5668-83dd-465e9c980207" />
+    <card id="5aefb3f0-31bc-5d18-a4f5-9c9ac855b5cb" name="Ryu">
+      <property name="ImageFile" value="MVC1_06" />
+      <property name="Number" value="6" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="--" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="Your rival discards +1 card from his deck when your other effects discard cards from his deck. (*) Your first projectile each turn costs -1 energy for each punch in your energy pile." />
+    </card>
+    <card id="901842ad-ec62-55da-ba62-abfa3cc1d445" name="Strider">
+      <property name="ImageFile" value="MVC1_07" />
+      <property name="Number" value="7" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="--" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="Attacks you play gain: “BLOCKED – Remove this card&#10;from the game.” (*) When entering Combat, you may take a &#10;0-cost attack from your discard pile and put it into your &#10;hand." />
+    </card>
+    <card id="bd2c6883-3d62-52aa-b32f-b162a3239fea" name="Zangief">
+      <property name="ImageFile" value="MVC1_08" />
+      <property name="Number" value="8" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="--" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="You may discard a card from your hand to block a throw.  (*) Throws you perform that end a combo of 4 or more attacks are unblockable." />
+    </card>
+    <card id="9df23a2c-79b8-5d33-ab07-44b4160f6715" name="Captain America">
+      <property name="ImageFile" value="MVC1_09" />
+      <property name="Number" value="9" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="During the first draw step of the game you may search your Side Deck for a copy of “The Shield” and draw it. () Once per step you may swap a card from your hand with a copy of “The Shield” in your energy pile." />
+    </card>
+    <card id="8618226c-a3c7-50a4-9bdc-0396a827cc09" name="Gambit">
+      <property name="ImageFile" value="MVC1_10" />
+      <property name="Number" value="10" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Twice per turn when you perform a projectile you may remove a card from your side deck to have it deal +5 damage." />
+    </card>
+    <card id="7a8ba40f-2f72-59dc-9596-ac870cf1422a" name="Hulk">
+      <property name="ImageFile" value="MVC1_11" />
+      <property name="Number" value="11" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="You take zero chipping damage. () After you take damage your next attack does +X damage. X = the amount of damage you took to a maximum of 4." />
+    </card>
+    <card id="b5a75249-e628-501d-8bbc-ee72ad1bb8d7" name="Spider-Man">
+      <property name="ImageFile" value="MVC1_12" />
+      <property name="Number" value="12" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="During your draw step, look at the top 5 cards of your deck. Choose 3 to draw and put the rest back in any order. t Blocks you play cost 1 less energy." />
+    </card>
+    <card id="1e4c35bb-ba49-5d95-8320-e3873b007c9d" name="Venom">
+      <property name="ImageFile" value="MVC1_13" />
+      <property name="Number" value="13" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Each attack you play counts as 2 attacks for card effects.  tThe first attack and first block you play each battle stays in the arena to be used a second time this battle." />
+    </card>
+    <card id="81477c27-a9b1-5e00-b30f-ba6a50575463" name="War Machine">
+      <property name="ImageFile" value="MVC1_14" />
+      <property name="Number" value="14" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="When you play the first projectile of your turn, you may reveal the top card of your deck. You may place it on the top or bottom of your deck. tOnce per turn, you may look at the top card of your deck. If it is a projectile, you may reveal it and place it into your hand." />
+    </card>
+    <card id="8d9c6fcf-aa0d-51af-a1bb-36c4d548476f" name="Wolverine">
+      <property name="ImageFile" value="MVC1_15" />
+      <property name="Number" value="15" />
+      <property name="Rarity" value="Character" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Your punches count as weapons. ♦ Your rival skips their next action after you play 2 or more weapons in a combo. ♦ At the end of the Battle step Heal 2." />
+    </card>
+    <card id="a10c460d-928b-52ac-b3a2-971eafd2a627" name="Mack the Knife's Spinning Attack">
+      <property name="ImageFile" value="MVC1_16" />
+      <property name="Number" value="16" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Captain Commando Only ♦Draw a card for each Captain Commando Only card you have activated this turn." />
+    </card>
+    <card id="db05347d-42cb-5c22-bc18-0fbeb6e81c4f" name="Chun Li's Hyakuretsukyaku">
+      <property name="ImageFile" value="MVC1_17" />
+      <property name="Number" value="17" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="If your rival is launched when you play this attack, this attack stays in the arena to be used a 2nd time this step.  If it's in the arena when Battle ends, discard it." />
+    </card>
+    <card id="53980500-cdb3-54cb-a30f-aa9d40729b74" name="Jin Saotome">
+      <property name="ImageFile" value="MVC1_18" />
+      <property name="Number" value="18" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="1083e18d-bd09-50a7-ab80-8c69f1b2e1b9" name="Mega Man's Leaf Shield">
+      <property name="ImageFile" value="MVC1_19" />
+      <property name="Number" value="19" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Prorjectile" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="Projectile" />
+      <property name="Text" value="When your rival plays an attack, you may play this card from your hand as if it were a block. If you do, it blocks any attack.  (*) HIT – You may discard 1 card. If you do, this attack gains +2 damage." />
+    </card>
+    <card id="b52863bb-320d-5174-be41-5cd0cf4f2b83" name="Morrigan">
+      <property name="ImageFile" value="MVC1_20" />
+      <property name="Number" value="20" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="99f1b7e0-5d35-567b-9dfb-ef916e087766" name="Ryu's Hadoken">
+      <property name="ImageFile" value="MVC1_21" />
+      <property name="Number" value="21" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="" />
+      <property name="Text" value="Your rival discards the top two cards of their deck. (*) This attack loses its name when in your energy pile." />
+    </card>
+    <card id="6e386229-5fac-5713-b4b3-d64e0131aba2" name="Strider">
+      <property name="ImageFile" value="MVC1_22" />
+      <property name="Number" value="22" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="865b5a26-0afc-5c4f-8bc8-fcf2f5528640" name="Zangief's Banishing Flat">
+      <property name="ImageFile" value="MVC1_23" />
+      <property name="Number" value="23" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="6" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - Your rival’s projectiles deal 0 damage during their next action." />
+    </card>
+    <card id="cfaf5875-2cb5-5892-b371-9769250815b0" name="Captain America">
+      <property name="ImageFile" value="MVC1_24" />
+      <property name="Number" value="24" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="c311e482-1028-517e-9f84-d0c571bbbe42" name="Gambit's dealer choice">
+      <property name="ImageFile" value="MVC1_25" />
+      <property name="Number" value="25" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="9871e9c3-ae5c-5887-b6ef-5cda57e22ae8" name="Hulk">
+      <property name="ImageFile" value="MVC1_26" />
+      <property name="Number" value="26" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="bfb2f7f1-7f1b-54fd-b0c2-727fba3314d9" name="Spider-Man's Web Swing Kick">
+      <property name="ImageFile" value="MVC1_27" />
+      <property name="Number" value="27" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="3" />
+      <property name="Link" value="High Attack" />
+      <property name="Text" value="HIT- Look at the top 2 cards of your rival’s deck. You may choose to put them on the top or bottom of their deck in any order." />
+    </card>
+    <card id="a722d114-608f-5c9b-b615-793d8a2149c3" name="Venom Fang">
+      <property name="ImageFile" value="MVC1_28" />
+      <property name="Number" value="28" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT -This attack can link to itself and deals +2 damage." />
+    </card>
+    <card id="8aa3777f-fab1-5337-b668-b2b831d57d13" name="War Machine'S Sticky Bombs">
+      <property name="ImageFile" value="MVC1_29" />
+      <property name="Number" value="29" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="HIT - The bottom projectile card of your discard pile is placed on the top of your deck." />
+    </card>
+    <card id="006e86df-eda1-572c-9339-92f7c4e2a61b" name="Wolverine's Tornado Claw">
+      <property name="ImageFile" value="MVC1_30" />
+      <property name="Number" value="30" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attak" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="7" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="HIT - If your rival has played a block this turn, deal &#10;+3 damage." />
+    </card>
+    <card id="bc0c8997-b41c-5078-83c1-a074ab9385e1" name="Baby Head’s Knee Rocket">
+      <property name="ImageFile" value="MVC1_31" />
+      <property name="Number" value="31" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Captain Commando Only ♦Your weapons do +2 damage this turn." />
+    </card>
+    <card id="f5dc5de2-41e9-562c-9d03-33c6cfbda3fc" name="Chun-li'S Spinning Bird Kick">
+      <property name="ImageFile" value="MVC1_32" />
+      <property name="Number" value="32" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="12" />
+      <property name="Link" value="" />
+      <property name="Text" value="If your rival is launched when you play this attack, take 1 card from their energy pile and place it in their discard pile." />
+    </card>
+    <card id="900dfae7-0800-549e-baf4-712aeb4a64ec" name="Jin's Saotome Cyclone">
+      <property name="ImageFile" value="MVC1_33" />
+      <property name="Number" value="33" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="8" />
+      <property name="Link" value="" />
+      <property name="Text" value="LAUNCHER ()The next attack your rival performs this step cost +1 energy." />
+    </card>
+    <card id="56b29783-2050-51da-b9eb-250048e5e286" name="Mega Man's Tornado Hold">
+      <property name="ImageFile" value="MVC1_34" />
+      <property name="Number" value="34" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="6" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="HIT –  If this is the first card in your combo, your rival cannot play blocks during the next link this turn. (*) BLOCKED - You may return 1 “Mega Buster” from your discard pile to your hand." />
+    </card>
+    <card id="0fc5f978-4d69-52e7-b110-5f809a58c5f9" name="Morrigan's Shadow Dash">
+      <property name="ImageFile" value="MVC1_35" />
+      <property name="Number" value="35" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="efc37eea-0e5f-5bba-8edf-e936c1473ee8" name="Ryu's Shinku Hadoken">
+      <property name="ImageFile" value="MVC1_36" />
+      <property name="Number" value="36" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="The first time this card is played, choose 2 attacks in your energy pile without &quot;Ryu's&quot; in the title and use the texts on those cards except for &quot;HIT -&quot; texts." />
+    </card>
+    <card id="b8335c82-6050-5056-823f-8b8b2e5fb743" name="Strider">
+      <property name="ImageFile" value="MVC1_37" />
+      <property name="Number" value="37" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="3630a79c-405d-5031-b93f-aec00814255f" name="Zangief's Spinning Piledriver">
+      <property name="ImageFile" value="MVC1_38" />
+      <property name="Number" value="38" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="14" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - Your rival’s next attack this step costs +1 energy." />
+    </card>
+    <card id="9f3bc984-eded-5ca6-989c-44c37080abd3" name="Captain America">
+      <property name="ImageFile" value="MVC1_39" />
+      <property name="Number" value="39" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="e2d4b0f8-eff8-5e3b-989c-ea10cbe8e604" name="Gambit's 52 Pick Up">
+      <property name="ImageFile" value="MVC1_40" />
+      <property name="Number" value="40" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="Set when you enter combat, place up to 6 cards in your discards into your side deck." />
+    </card>
+    <card id="3d133e6e-af40-52f8-b9a0-956f53fc8d3f" name="Hulk">
+      <property name="ImageFile" value="MVC1_41" />
+      <property name="Number" value="41" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="101aaf57-c482-5c13-acd3-5b7666e3688d" name="Spider-Man's Web Ball">
+      <property name="ImageFile" value="MVC1_42" />
+      <property name="Number" value="42" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="High Attack" />
+      <property name="Text" value="Your rival cannot LINK attacks during this step." />
+    </card>
+    <card id="9f9f80ca-5126-57f7-921f-b240aac82a8b" name="Venom Rush">
+      <property name="ImageFile" value="MVC1_43" />
+      <property name="Number" value="43" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Slam" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="When you play this card from the arena it deals +6 damage then remove it." />
+    </card>
+    <card id="6ce3719d-5bfe-5b7c-93b5-06a25c9e57b0" name="War Machine's Pulse Cannon">
+      <property name="ImageFile" value="MVC1_44" />
+      <property name="Number" value="44" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="BLOCKED - Your rival discards a card for every projectile in your energy pile." />
+    </card>
+    <card id="099c9018-05f0-5f28-b1e0-d508811ddf02" name="Wolverine's Beserker Barrage">
+      <property name="ImageFile" value="MVC1_45" />
+      <property name="Number" value="45" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="5" />
+      <property name="Link" value="Weapon" />
+      <property name="Text" value="HIT - This attack stays in the arena to be played again this turn. HEAL 1. BLOCKED - Put this card into your energy pile instead of your discard pile." />
+    </card>
+    <card id="964b8af0-c536-55ff-94af-8ec897d326a3" name="Ginzu the Ninja's Smoke Bomb">
+      <property name="ImageFile" value="MVC1_46" />
+      <property name="Number" value="46" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Captain Commando Only ♦Your next attack this battle costs 0 and does +20 damage. Stops the next attack your rival plays" />
+    </card>
+    <card id="8bc3cc56-2cb6-5d3a-947a-591827327135" name="Chun Li's Senretsukyaku">
+      <property name="ImageFile" value="MVC1_47" />
+      <property name="Number" value="47" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="18" />
+      <property name="Link" value="" />
+      <property name="Text" value="This attack does +1 damage for each kick you’ve played this step." />
+    </card>
+    <card id="e230aceb-de34-538c-8e7f-ce994eca8011" name="Jin">
+      <property name="ImageFile" value="MVC1_48" />
+      <property name="Number" value="48" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="612fbf6f-983b-5177-a379-265e392772d0" name="Mega Man's Rush Jet">
+      <property name="ImageFile" value="MVC1_49" />
+      <property name="Number" value="49" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Search for a named for a Mega Man Only card. Remove this card." />
+    </card>
+    <card id="f028b2eb-ef13-5bd0-bd6d-94769a1afd3c" name="Morrigan">
+      <property name="ImageFile" value="MVC1_50" />
+      <property name="Number" value="50" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="db841ce6-f31c-56f6-abaf-65fc65354c79" name="Ryu's Shin Shoryuken">
+      <property name="ImageFile" value="MVC1_51" />
+      <property name="Number" value="51" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - Choose any attacks in your energy pile without &quot;Ryu&quot; in the title and use the text on those cards except for their &quot;HIT -&quot; texts." />
+    </card>
+    <card id="d8456bc5-79b7-5eb5-90eb-fd92f04588e4" name="Strider">
+      <property name="ImageFile" value="MVC1_52" />
+      <property name="Number" value="52" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="eb185b29-4730-5d6b-a36a-8d05bcd66573" name="Zangief's Final Atomic Buster">
+      <property name="ImageFile" value="MVC1_53" />
+      <property name="Number" value="53" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="If you have performed at least 3 other throws this step this attack does +5 damage.  (*) HIT - Your rival must pass in their next action this step." />
+    </card>
+    <card id="d86fdcce-8fe6-5583-8d23-6c349fa8638b" name="Captain America">
+      <property name="ImageFile" value="MVC1_54" />
+      <property name="Number" value="54" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="bb973d48-ea34-5229-8ffb-7ded91e85575" name="Gambit's Royal Flush">
+      <property name="ImageFile" value="MVC1_55" />
+      <property name="Number" value="55" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="6b104f6c-353e-51f2-ba16-7a044995c721" name="Hulk’s Gamma Crush">
+      <property name="ImageFile" value="MVC1_56" />
+      <property name="Number" value="56" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="Throw" />
+      <property name="Text" value="HIT- Remove your rival’s discard pile." />
+    </card>
+    <card id="34c98b4b-5d47-5948-9897-f1448bf25d22" name="Spider-Man's Maximum Spider">
+      <property name="ImageFile" value="MVC1_57" />
+      <property name="Number" value="57" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="--" />
+      <property name="Text" value="If this is the third attack you play this turn and all three have different types, this attack is unblockable." />
+    </card>
+    <card id="f9d76c00-f9a1-5a44-9c5f-3a19a0336328" name="Venom Web">
+      <property name="ImageFile" value="MVC1_58" />
+      <property name="Number" value="58" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Slam" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="--" />
+      <property name="Text" value="You may pay 1 to play this as a high or low block." />
+    </card>
+    <card id="ae3e236a-88c2-5940-8e9f-3da7466e5ad8" name="War Machine's War Destroyer">
+      <property name="ImageFile" value="MVC1_59" />
+      <property name="Number" value="59" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT -Look at the top 5 cards of your deck, you may reveal any number of projectiles, your opponent discards 1 card for every projectile revealed this way.  Return the cards to the top of your deck in any order." />
+    </card>
+    <card id="52ce79a0-e25f-5eca-96d1-67f6513ada17" name="Wolverine's Fatal Claw">
+      <property name="ImageFile" value="MVC1_60" />
+      <property name="Number" value="60" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="18" />
+      <property name="Link" value="--" />
+      <property name="Text" value="HIT – Choose up to 2 cards from your discard pile and shuffle them into your deck. If one is a Weapon card, Heal 2." />
+    </card>
+    <card id="6352566b-a3a2-58b1-b0a9-e245dcee80b8" name="A Hero's Legacy">
+      <property name="ImageFile" value="MVC1_61" />
+      <property name="Number" value="61" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="MARVEL ONLY. () Flip at the start of Battle. Draw a card. () Choose 3 cards in your discards and shuffle them into your deck. () Limit 1 per deck." />
+    </card>
+    <card id="809157f1-879b-5a05-a392-1a62546a2fe2" name="Air Kicks">
+      <property name="ImageFile" value="MVC1_62" />
+      <property name="Number" value="62" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="Projectile" />
+      <property name="Text" value="" />
+    </card>
+    <card id="d3d7a7d8-dad2-5e35-bf68-2a11046029ca" name="Back HAND SPRING">
+      <property name="ImageFile" value="MVC1_63" />
+      <property name="Number" value="63" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="60bd10a7-8abb-509e-9092-00ba98a4b330" name="Berserk Chop">
+      <property name="ImageFile" value="MVC1_64" />
+      <property name="Number" value="64" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Projectile" />
+      <property name="Text" value="HIT - Switch up to 3 weapons in your hand with the same number of cards from your energy pile." />
+    </card>
+    <card id="b613891c-07df-5cf4-805f-5ae9ddc632ee" name="Blade Kick">
+      <property name="ImageFile" value="MVC1_65" />
+      <property name="Number" value="65" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="" />
+    </card>
+    <card id="a82e675c-09e9-522a-ae79-6758596f59b0" name="Bull Rush">
+      <property name="ImageFile" value="MVC1_66" />
+      <property name="Number" value="66" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Slam" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="HIT-  If you have already played a slam or throw this turn, put the top card of your deck into your energy pile." />
+    </card>
+    <card id="e05b00dd-196c-51a1-b749-0ed4ea42be9d" name="Clash of Super Heroes">
+      <property name="ImageFile" value="MVC1_67" />
+      <property name="Number" value="67" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="--" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="Flip at the start of Battle. Draw a card.() Your attacks gain “BLOCKED - put this card to your energy pile. () Limit 1 per deck." />
+    </card>
+    <card id="e8ea3340-7d10-5ef0-9bd3-ca9623618918" name="Determined">
+      <property name="ImageFile" value="MVC1_68" />
+      <property name="Number" value="68" />
+      <property name="Rarity" value="Ultra Rare" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="" />
+      <property name="Text" value="Flip at the start of Battle. Whenever you link an attack it deals +1 damage for every linked attack you have already played this combo.  Limit1 per deck." />
+    </card>
+    <card id="8f6cf574-97bb-505a-aa20-ea5124d1f7d4" name="Drill Claw">
+      <property name="ImageFile" value="MVC1_69" />
+      <property name="Number" value="69" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Weapon" />
+      <property name="Text" value="--" />
+    </card>
+    <card id="5ccdd2f0-eb43-567d-9238-fc8d90b91042" name="Driving Haymaker">
+      <property name="ImageFile" value="MVC1_70" />
+      <property name="Number" value="70" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Slam" />
+      <property name="Text" value="HIT – Your next attack this combo gets +1 damage." />
+    </card>
+    <card id="fe59b9df-740c-54e1-ab33-6b61ef5865a4" name="Hand Spring Jump">
+      <property name="ImageFile" value="MVC1_71" />
+      <property name="Number" value="71" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="High Block" />
+      <property name="Attack Type" value="--" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="--" />
+      <property name="Link" value="--" />
+      <property name="Text" value="MARVEL ONLY () If you have a kick and a punch in your energy pile, draw 2 cards" />
+    </card>
+    <card id="4d429f03-61ff-528c-a863-acfd35ce52fc" name="Inside Guard Slip">
+      <property name="ImageFile" value="MVC1_72" />
+      <property name="Number" value="72" />
+      <property name="Rarity" value="uncommon" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Flip at the end of a combo of 3 or more. Your opponent must pass their next action. If your first attack on your next action has a printed cost of 1 or less it is unblockable." />
+    </card>
+    <card id="9d1f8d89-9da4-5b6b-8855-d71864e14826" name="Lunge">
+      <property name="ImageFile" value="MVC1_73" />
+      <property name="Number" value="73" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="Low Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="If your rival does not have &quot;Roll Away&quot; in his discard pile or energy pile, he discards the top 4 cards of his deck." />
+    </card>
+    <card id="43447a85-22d9-5c3b-8c51-39bcfa0bf353" name="Massive Collateral Damage">
+      <property name="ImageFile" value="MVC1_74" />
+      <property name="Number" value="74" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - Your rival’s kicks do -2 damage this step. (*) If used by Hulk this attack stays in the arena to be used a 2nd time. If the step ends while it is in the arena, discard it." />
+    </card>
+    <card id="a00028cb-4ed7-56c0-902d-d052b6c39c90" name="Mega Buster">
+      <property name="ImageFile" value="MVC1_75" />
+      <property name="Number" value="75" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Mega Man Only (*) HIT – Once per turn, you may return this card to your hand instead of placing it into your energy pile. BLOCKED – If this card was played from your discard pile, remove it from the game." />
+    </card>
+    <card id="190baaa9-a751-5462-93cc-d90996030fc5" name="Roll Away">
+      <property name="ImageFile" value="MVC1_76" />
+      <property name="Number" value="76" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="Low Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="If your rival does not have the card &quot;Lunge&quot; in his discard pile or energy pile, he discards 2 cards from his hand." />
+    </card>
+    <card id="a904b99b-54f4-54fc-97bd-dd074ca66ca0" name="Sensational Dodge">
+      <property name="ImageFile" value="MVC1_77" />
+      <property name="Number" value="77" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="High Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="MARVEL ONLY tYou take no damage from the attack, even if it would deal chipping damage." />
+    </card>
+    <card id="a480a69d-260f-565e-8113-27ca405011aa" name="Shin Crusher">
+      <property name="ImageFile" value="MVC1_78" />
+      <property name="Number" value="78" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Throw" />
+      <property name="Text" value="HIT - Your rival's low attacks do -2 damage this turn" />
+    </card>
+    <card id="b4ade69c-5a54-5437-b549-9eb9308ad0af" name="Sparing">
+      <property name="ImageFile" value="MVC1_79" />
+      <property name="Number" value="79" />
+      <property name="Rarity" value="" />
+      <property name="Card Type" value="" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="" />
+    </card>
+    <card id="67f12103-217e-5636-8fda-647dafad55cd" name="Soccerball poke">
+      <property name="ImageFile" value="MVC1_80" />
+      <property name="Number" value="80" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="HIT - If linked from a kick, your rival’s attacks cost +1 energy this step." />
+    </card>
+    <card id="b6b5f1f1-22f1-5cea-9943-59779d2c199d" name="Swing Kick">
+      <property name="ImageFile" value="MVC1_81" />
+      <property name="Number" value="81" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="HIT- You may link any attack type to this attack. If used by Spider-Man or  Venom you may return a throw from your energy pile to your hand." />
+    </card>
+    <card id="05db5d42-0b4c-57c1-93e4-23a34b0dfbad" name="The Shield">
+      <property name="ImageFile" value="MVC1_82" />
+      <property name="Number" value="82" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Place this card in your energy pile. () You may play this card as a High Projectile attack that deals 4 damage." />
+    </card>
+    <card id="410539a9-b4af-5182-a881-58255faccb4c" name="Unphased">
+      <property name="ImageFile" value="MVC1_83" />
+      <property name="Number" value="83" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="High Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="MARVEL ONLY. () If this blocks a projectile draw a card." />
+    </card>
+    <card id="b5d8d2f8-c998-5356-95d6-2d44b4ff3dad" name="Vault Crush">
+      <property name="ImageFile" value="MVC1_84" />
+      <property name="Number" value="84" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Slam" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="HIT – Your next attack this combo gets +1 damage." />
+    </card>
+    <card id="ae8ee30b-7998-5fc9-9df7-e692d2749f1a" name="Web Throw">
+      <property name="ImageFile" value="MVC1_85" />
+      <property name="Number" value="85" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="HIT- You may link any attack type to this attack. If used by Spider-Man or  Venom you may return a punch from your energy pile to your hand." />
+    </card>
+  </cards>
+</set>
