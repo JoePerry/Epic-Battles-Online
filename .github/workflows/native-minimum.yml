@@ -35,6 +35,8 @@ jobs:
       - name: Build Epic Battles image downloader
         shell: pwsh
         run: |
+          msbuild octgn-src/octgnFX/Octgn.Core/Octgn.Core.csproj /m /p:Configuration=Release /p:Platform=AnyCPU
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           New-Item -ItemType Directory -Force octgn-refs | Out-Null
           foreach ($assembly in @('Octgn.Core.dll', 'Octgn.DataNew.dll')) {
             $source = Get-ChildItem octgn-src -Recurse -Filter $assembly | Where-Object { $_.FullName -match '\\bin\\Release\\' } | Select-Object -First 1
