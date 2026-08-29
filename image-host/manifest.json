@@ -1,6 +1,6 @@
 {
   "gameGuid": "336cc7ef-c808-5f75-a22e-0171564da1e3",
-  "version": "0.4.0.0",
+  "version": "0.5.0.0",
   "images": [
     {
       "setGuid": "1d5ceeb8-0ba5-5728-ae5e-fa97dddb17e6",
@@ -1051,6 +1051,601 @@
       "setGuid": "bc2f5afa-649c-51fd-9a47-9b9021364711",
       "cardGuid": "b853ffbb-a50e-5997-b3b2-065c5c90df4b",
       "sha256": "79eaa73ac9df709f911d5fddef6e4cb3e06d24c155aab4552fbf376a4412d9f4"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "012fb4a3-de6e-5eae-85b1-482248075287",
+      "sha256": "169bb7f8b4c59d12ae7b421fa8fbae77783fffd788fdb8daa8fa1bb87751b76c"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "054386a2-b9b3-5380-b580-95fa344a7b93",
+      "sha256": "6b954b37b405bf3b719508374deb1064277933df4f7dda2f1647c1132a569b8b"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "0653c465-0588-5619-b040-2c8ea582e0d2",
+      "sha256": "bb0864e9d9861350fcd9a90f63b33fae442988522a763080ba49b10652241b33"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "07f421dd-a088-512f-918c-00c893e2cfd8",
+      "sha256": "b7a766ee16b3a2ffdab79c03592f024f06315b1e6480f7d7a2cb05d544d3ff59"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "07fb6bc2-91c7-57cf-a391-f96b386e9d9f",
+      "sha256": "09cadda3f4b609f894080488557b9b4693df70fcb3857d3bbccfb21b608acca3"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "09f1e21b-69a1-54e2-80f2-270b4dde575f",
+      "sha256": "fbf2da8eb8eeddc774fbbf53c9755b006df19ecec3811b8a94e9c3c0c7389fa3"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "0a5b7285-b9ee-50df-94cb-76b9ae81aed3",
+      "sha256": "54d1bfb5ec0464ad52deca0d19f90f538d46b31d7418294aaab3a29a49a07907"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "0a96f039-0e18-5af4-8c95-0dae85a2b0d6",
+      "sha256": "59afb352f7efc75935a7d716e6d0b957dc75b43231d2ddf8864e5a05f86b862b"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "0c6763ba-3b4b-5a44-aa75-97ac076c7dfe",
+      "sha256": "e992acdecd29c54e04dddc181d7839344791bac1bd2724648a75f7da99c5610a"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "0f440d72-4776-5492-8d5b-13db130678f9",
+      "sha256": "1066cacd3f3408c65af09259092b889c2ce78ef3ae7891ba0c8090cbd53508f7"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "1016ff3f-6074-5ee8-b3d2-bd843cd121c1",
+      "sha256": "83bdff2a0b0b99efe37f9ea96ebd27848156b5385f77819c2ad8a1a8fd69737e"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "105b4d2b-2133-552d-b36e-268e637ab8e1",
+      "sha256": "f925b322cd5cd948ae0fc926e62f9f48956407d444136ea516d11f0700178ecc"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "1088d26d-c699-5652-8f3a-2dc4af7af03e",
+      "sha256": "8d0db7ee33ca7e1de5c0dfe67fb37aee0aad375eddab556520014478ccaeb991"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "14badb7b-fd62-519c-91d4-c759fd8a2035",
+      "sha256": "df9c379eb5495a2c2519df3b45ac9ae2af4f6cdffdac145ff49d6bd5663914ae"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "1516d6c0-377c-52b3-9865-955022856af1",
+      "sha256": "f99667c691a386d9fca5e98196cc2bf19b3563f4d383a9b37077740730d8fe1a"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "1722c5ae-04e3-5eb5-b90d-3e28fbcbb586",
+      "sha256": "66e0f0d085acd6c37061ee1fa3d6f6d3886b658cbb1c7e1c9e25f9eb2cd1d562"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "18196e31-f2a6-5e99-bcc6-56c8ca1d4bd2",
+      "sha256": "58f128f2cb11eb180d0777ada098f26993f0dbbd91cd94a34b2c5a07651fd341"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "18533644-bd4e-56fb-b184-aea46e845400",
+      "sha256": "47772e840ca4d1b48509b4d7ee59b88a564277066d5b298a7a4d4ac8b4c12999"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "1921bdf4-16e9-5783-8036-71d75fce4d85",
+      "sha256": "4d561a8b1cda3474f712c15f7ec573ae2cdbfdfdbe240ba9ce078b1f49454340"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "1af80783-b527-5714-8226-9a324a66cac5",
+      "sha256": "df7865ec0cc70799f187271735e47e7f1502f82f5e71cd47b06ea27f0163022c"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "1d8c08fd-4587-5dd2-9792-8529a148f4f0",
+      "sha256": "02d6c41b8f0b42b37b29dce5535a6f98747f651f7f928c1834c4737d518a8887"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "1dab01a8-6f56-5e4e-af1f-90b005f237e6",
+      "sha256": "23d805ed70bdbe8ace5b9a793550dece752a074c7de9bdfa1fe0e7c393fc2e01"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "202228be-8673-5cea-af7a-3d4581339725",
+      "sha256": "0283d090e86d2beab5f8f6acbc4bbcb70e7483d428e9585c1966cbf7b1c45411"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "2269c3db-ffb8-524e-bd29-5d88a2e8b893",
+      "sha256": "f1bcca78555050b415a80e3628e0b742f7d3e159f9d820a2086bde28ca539f95"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "2405604b-06d8-53ad-8897-c1ef11e7998b",
+      "sha256": "c34b0b870779d66e4eee5f63e88a12a3bb577d900816bf91b0c11e16271f9040"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "250f8e1a-d546-57db-bd9a-0627405f553a",
+      "sha256": "064e90292e9a0cc53e0e48693aed57412e5a818653a0b3b0e6d9213ad200b14d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "26ccdcdb-43e5-55ca-ba60-fc3d9b559853",
+      "sha256": "856c371e0edd1735b36ff37ca55d8a835c0dea85943fa40cbf4ef978cff8464c"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "2fbe65ce-ee27-5594-aaea-fe6b7b97cbbb",
+      "sha256": "bf441ad45891b44315605a371e30175664c9a40aee47c1707e8abed8d0a2feac"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "3250fd3e-a027-5b74-a712-933cd8fc31ad",
+      "sha256": "618bfbbbf6c313c01dd3d5c1cf01b12d65e5619239343bd58264150387f10bca"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "3498a080-8688-5080-93fb-41281b16cf64",
+      "sha256": "b42c33105045eda87036cf0946369261ad62cbe65d5df42f48e59bbd320eebac"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "3e0c3ae8-6d8a-5cf7-b43e-42c0454dd592",
+      "sha256": "869a58b874e599709ab9c830ab0d6e5bb4c36e399564fb23ba78079d4fa76ad0"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "3e1c5128-59e8-573a-91ab-5a58d7f74a33",
+      "sha256": "a322700de8836de9ee50c362affe25bbd20743933890ed387908b09debb3c590"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "42a4615e-2d20-51c5-a982-5b6036385f41",
+      "sha256": "62f0667b0d880705fb5b229d8cd793a637516a2cb6cb48b9f60b29c708e0829e"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "45120f60-93f6-5f4b-bfe0-124a609a9d89",
+      "sha256": "934e0f994577146ae1e3078b1b2f040b44018dd9c67fbdee7366c79e2f123e7d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "454e3c79-492b-5c9c-bf0a-c6ae8e80255f",
+      "sha256": "9177efdd7a8abd48f6be4335d52e84a6da7879b33603004eb6af0a0aa43c1856"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "49234dd8-cf7d-56f1-b5b1-c3982b023533",
+      "sha256": "55d7b0b3c6d71f4144f54a836a4c3ee58e7417acb51cf3ef685d4a423b2235d6"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "4c84d7d8-e87c-5564-8d05-7d242568f4ec",
+      "sha256": "efce02afb7358c324abc5ac9f5964050f0b5aa13a79bc15e1f4c0646875032d9"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "4dffa19f-2a00-50d8-9c31-572246710ca2",
+      "sha256": "5595b1b62ce2d842dcd38482bea66fda17f6a99c44842a7d64f6c65e3c2f8c92"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "4e9b63e3-fb6f-5c36-b502-7e014b33be04",
+      "sha256": "8f1d7a7c9de4d661e44c13554a9038248b909c735cf4ae5b003289e1d29cd6b2"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "508e7f80-42db-5ae6-9d14-31b76352132a",
+      "sha256": "3d691c28a2eb41f0c0c634000e8eff5b6e95a4b1d4437de2fb4ecc4dbcef9d67"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "51407677-c3dd-52d0-87d2-bf75ef375993",
+      "sha256": "ca4dedaef2f685edc0b460ba9b6fb5710168c2efe4d163fc2c4512989193a27d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "53c4105a-14ab-54f9-856d-856fb1869e58",
+      "sha256": "c6f13f6eb3bc57acd86fd8533825cb050522c16f3f4f6013c5ab86b5a1039df5"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "544575b7-1e5f-58f4-b47c-1295b1cc369e",
+      "sha256": "5d343cd180ed03a8a929773fa2f513d506c6184f4cfa8951dbf7d0cb756a2180"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "567cf88b-537f-56c4-bd81-8a242a3a02f8",
+      "sha256": "2a94ae4db4ef4cdc37414f8e35a08dc93d4112a680aa8cbd281c68d44d5ff879"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "57459483-7a1b-5f75-b972-62a2c248e423",
+      "sha256": "4cc6119ba9cf02009b49fbbfa670f4ce397b46819f76e384013c70a8195c666b"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "58662b5a-d1cd-5b01-a94a-88b7163d28c6",
+      "sha256": "c9dd7ce0041ebedd11e9451963a9b5f82774dec11a14f41b3d425492e8aeaae2"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "59cbd631-ee0f-5254-8fef-7a5d7a0e86a1",
+      "sha256": "079d9a777ba276714068b6d7a0bfed0a87df8368bb4fb9f2ee710d2d4e560c8d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "5a9baae3-6bf4-56e6-82f2-bd8376763b12",
+      "sha256": "c805d9b6ea7c23e6b0755e04ad0902dc32e4a9646d72d0c913fa5cde0a03537c"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "5cca9939-b0cf-5749-877d-9750225d48e4",
+      "sha256": "65c3a9472f57fe72c21d329bf1f0fc12d209bbaa323f4aa9d1dcb670653a0087"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "607884e6-707b-51eb-8c48-0cc35663034b",
+      "sha256": "989468232479e91312ced0a11e01a3af476c62e23249959888c353af064e999b"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "616f2eae-13f7-5e59-b61a-6630ef232840",
+      "sha256": "1e3feca782ba61518321c5e96c9aab21bcb99971ffd1ad5b2a1f21b67c650203"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "63a844b6-6054-579a-831d-4ed5f21e0e53",
+      "sha256": "217241100237536e90083b773c730d3a07db5af31893e58c3f13498e17781d13"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "66645b42-4c57-58b6-8b48-acee8fdc379f",
+      "sha256": "e66f2565cbeb739682b77956dc7ac07127722607bd505d2aadb7b6bc7703bd39"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "68d4bde3-40d4-5f88-bee0-b311767e890e",
+      "sha256": "ec37be2c2ddb70ac0e6e4846bb4f4ff619b091aeb74290b5c23cf0b0a03b73b5"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "6ae10119-0990-5dd5-b235-19e69b52841f",
+      "sha256": "46668811014176eaca06d959b743626d8e15da450790c83803a58f500be7131d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "6b8dce4d-2706-5982-b973-dbcd6204ffec",
+      "sha256": "b7460cc8990d2e94a9846edf9d332a4499b72592d287879eed1a5ab8ff41b495"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "6e8cb07f-c67d-5f64-aee5-916bb54a95ff",
+      "sha256": "837b0268d6e4e9bf8f6e71fc7d7f8afdbd68784f8ca339c2136702f14321de0a"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "7090edec-13ad-52f8-b5a5-0e9d27076584",
+      "sha256": "4dfb4b2841a6a2fd9d615cb2497b7ae90393032a12b02fbe98bcb005cdd8933d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "719e0cd8-355a-594b-aaed-8976d5522d5e",
+      "sha256": "3f2e61a44f56b36c39e2ccc18cac32e0d567f27bb44387b3a45c3b560574139d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "72750355-39cd-57ae-989f-5d3f760c0326",
+      "sha256": "cc15206f0458c2d8754bbde6fa9816faf0181d5cc3981ec9049968ceca7dd30e"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "72f00be6-f57a-5ddc-93e5-675db83ce692",
+      "sha256": "0bf1cfa0392a9f0b787f894ba5f422a65946ae762cfb1caee3bf2870a23e22d0"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "74b49964-d322-53fd-8f8f-cddab8e6a2cd",
+      "sha256": "1fdc47f172eceea548c79b77903fde2de30c5995ff313d695c685fd99d671d6b"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "787ffe95-94fb-5e45-b5a5-071b75afcf44",
+      "sha256": "57a7ae8aa544912eac9812702081ca2b7e4dee973eef96f444af647ce6e65907"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "78b2019f-cb7d-561d-a8b9-03329a9def99",
+      "sha256": "5da10e47409f6da5bd6d544065a988a3f060ad02ae15c102f16fd85db3f7329d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "8211bebd-b6ec-5cc5-be4e-7c1c979af7a3",
+      "sha256": "018cf1faf19dddcddaf574857701c54cdddc4b36038c1c45278ed6a7163ca3aa"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "86fb5e63-d9ca-5b4a-86aa-497d8be8d9b7",
+      "sha256": "b1116213f5c4f53e70147256d192a3d77ef810885670a5ff878035e223765c4e"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "8925c701-af01-5ffb-b396-1be16d881212",
+      "sha256": "15a184c7b6ea05a7837a376c41c7414e2cb3b548c35cca8f6cd2f11934a7447a"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "89631aad-4365-5ef5-a3e1-e0d73b269dbb",
+      "sha256": "2b2e326df25cf757fa352ac65f11000630a807c04b1c61cb097c7135e0b02712"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "9268a0bd-436e-5f48-91f2-38749ed4b3da",
+      "sha256": "1669b015c7e93544cfa30969b0ebfadb3b15fbd60505fee567d540a11674dc65"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "92eca308-b7a1-550b-ab3d-3948488df5e7",
+      "sha256": "24b925cfeaad8a4b25476048b08f33af2bbbfd1d70cb63163617b17f43488197"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "93500138-6533-53f5-884b-7933cfa5dd63",
+      "sha256": "9add05637e3c52c0c74dc87000104c2aae3ae9a5381c10035fe46d2d11037008"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "93e53172-1c17-52c2-a6f6-eb455cc28de0",
+      "sha256": "f091d9a0fd93e99296f27a69016a18513733aea14ca128d0586fc8a0fe2c785c"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "96ba7f8e-55ce-5569-9d60-aee542095653",
+      "sha256": "a73102867c14aabd6953046116cf4e4f3c6ce7c75fc1ae4840987d643d2a7526"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "9bd7731a-0c66-5cca-9fd0-d4ae1a6498c9",
+      "sha256": "2b77ab703cdcec7e00e697da30792845738e010cdd928871ef6ffdb7f48cecea"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "a00b1c4f-d2f0-5fe9-8850-08952ba5ac35",
+      "sha256": "859ce1798c50962d27f1b5f48396f97cf31ac84e56307859a3f171de825f8942"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "a2fcdd1d-1d25-544c-8ae2-78a607e1c395",
+      "sha256": "933165aff119fa061932de7072a43bf72b6e8d4b60ead4baedc27bac21f38aad"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "a61de30d-676d-5b52-8a02-9853ed81ceaf",
+      "sha256": "eb5a29e2da7cace862134ebaacd760cc2f57ca6b53283384210dc177501cc9d0"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "a68f79a1-4282-582f-ade4-2d9d7bca2ab2",
+      "sha256": "a156d8c6c9ce550ee09b86ff4587ebfd15aed4b58592f18f042a1c2ec6e070c6"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "afd55fff-bc66-56aa-a11a-5165f99a427d",
+      "sha256": "80186086ab9f7548e7fb0965e530392b231cd31cb3f32588954ac37c941dfa4c"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "b02fa7f6-1a7b-5363-9271-c8990b443848",
+      "sha256": "8bf7448c55d0a966bc890782db273c34d58bddb0b559b08dcf0db9b40d3da58b"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "b116c029-fd26-5390-96b5-2c1f23584620",
+      "sha256": "87a453c1d16fe8f142b29dbb4dbc21126121ac3ca16c4024d2a2546cac9b2ab9"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "b563f0c9-c366-5d08-912a-9391dd6153c6",
+      "sha256": "5608e05ca1fd9229bc184eac711783d92d3d63f2a4fce86a3496a8aeaf6642e9"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "b572325f-a22c-54a9-baaa-1c69eda5c5ac",
+      "sha256": "a010775e89468cf9801031bed55a41e81079d1f32033637eac9664a88b4d483d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "b6a5ee1b-c767-51c7-82ee-88b641b446e8",
+      "sha256": "bd4c9f7cfa8f2025fc4d258e9eb326dfff8e6f7d8a45410eba173b27438d3300"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "b760804a-91ed-5659-aade-edb5c920af3e",
+      "sha256": "86d2dad07862d12c5b06f7cf36a743136d2c795eac27aab30bd615bc39f51ee3"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "b76bdba3-8f5f-5c98-9b34-a97361d6f1c8",
+      "sha256": "fff0b83504c3214f8fef4741dbde8389e5b2b7141f1ae78fb0118e401e2ed095"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "b7e664f8-811b-5006-b7ad-5e27f3d342c8",
+      "sha256": "f0faa88e65336b59fd970bb88ea21abb3f98e1aea7bba93ab42321cca4f792c0"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "b9d415de-e40d-5827-b0d9-db5ed89ac1aa",
+      "sha256": "68bae5ba97835f6613bdc6dc878f12408be1a6677d4fcef4e917c943fc08d25f"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "bd93f72a-37f0-5f57-a5ca-37b994642ef0",
+      "sha256": "40ccbf326190abdc0da6357449ab86f5aaab499997b8e1304e0b12446ed44722"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "bdbfabf5-755c-5b63-929f-b1f6590e3399",
+      "sha256": "eb6c9cd824cd52eed8549170a3b1cf7d8afd246acd66997a4de0044c69f591d5"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "bf488715-725f-5d80-bc81-2e7c9d14da68",
+      "sha256": "ea234d4706854092166cb17d9580877b2c926fa4d67084a7f57484300184cf48"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "c44cc280-8886-525e-a248-ce1c640084e0",
+      "sha256": "6251e512d058e06205b35ee8cd830e3a00dfb09b997044db4589cb9ebe897056"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "c658351d-c243-5fd0-b586-5c12f43b4efd",
+      "sha256": "e8ba7f475a7e9c1a52854d92cd7e89ec48c2910f89b313a09fdc984ef3e6d5b1"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "c6834dc5-4a74-50f7-9f0a-c6a5f87e7cf1",
+      "sha256": "e6a5f6db36e709347d69354d03f9cae38259f7c184ddbd6c4c83e34bf728dd61"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "c6948939-d898-561d-9098-7323b87f2110",
+      "sha256": "d32abddde5c42db66a2c32c39fc059ea477ac846dcda5066fac87574c755f133"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "c6f7b6da-76e8-5fc2-93fb-ec405d0607c2",
+      "sha256": "b54f5f0e751395cc356a13a10eb370fdae263a40205d35982cacb9eb75b36400"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "c83e86bb-d237-5f00-97da-d11488b0afe1",
+      "sha256": "26c113070774534e295f4232fbb4c696b3d01cd44177e2a30b0faa6ef28a05a6"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "c9846ad9-d59b-5362-a026-e87291e7a728",
+      "sha256": "df345c747a60f0df6df7cee004375dbb7fd03b0842c702b2b2110dcd5e62895c"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "ca3706e2-b68e-5cdd-b3f8-37983e25f872",
+      "sha256": "2ff16cd57f4e2c3bac432472e596a9d0fda2ed84bdc22e1e84aeff11620ca682"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "d45c5a15-9562-5a15-a6f5-247c1d514bed",
+      "sha256": "64211bbe3809018dcb3b1a00a6af0afafb3ef3fb189108267ea87dc48b9c70fe"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "d736d2c6-6488-5278-9e9c-63ad7402eef4",
+      "sha256": "5321cfcc3e51efede62c494be4ae5ec657bcc63fdcd482fdc87c84dcc68a216a"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "dcb308e3-e54f-5590-844f-4d97b349099c",
+      "sha256": "ac1d794d68b7c923e3dfcd1d1bcf0cb9a161ef1bcd1ac949112aeba34108326b"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "dcd985be-34ce-5f63-9f79-dc163c908b4d",
+      "sha256": "d4c2a3d11365be2541674b60110254857b36774f670a81a44d71c5d86086ec98"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "de5828e9-93ad-504a-9794-fad33a1dcc0b",
+      "sha256": "66223904d1432b546c95834c5b950ffea1ec5e0703d16033fe819d9c09e668e5"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "e04e128a-66d0-584d-b4d1-d749cdb9bf91",
+      "sha256": "9dfb20a75f6016f0d1c4fdd145780143fa8f3acfeaff00cdf970963902937a76"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "e23b01a0-56a7-5407-a767-3a9c0faff5d9",
+      "sha256": "928eae8ac9613ae15bd0af2cd892c250ff8fcc7c12bf087f089c663a2a7e014d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "e2a0d686-99cb-5a2e-9251-4aa8eb319f13",
+      "sha256": "4711b8f818a6cec6831737f8f81cd54a75ad25b8fbd0b9e207ee40b6a6dcd3ad"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "e535894e-c5a8-5061-9676-965b7e87a4ec",
+      "sha256": "2c959012ab53946adf8e7078c4c9798dd25f0f806baf4907f5a735716d70f0e6"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "ed7fd1d1-a389-5e50-955b-876a64bf54f0",
+      "sha256": "2f580fea33de4154766032922c8c36b5f595518a00edd838e4aa3b72df8f6168"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "ede18e16-b497-5f90-94f1-4a23a2ba6d51",
+      "sha256": "457ede1d45c3e593ccccaabffbbe6a5c02a1bedd12a8a95fb91d182866412c38"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "efe5d27d-b18f-5950-96e2-e68b17d0635f",
+      "sha256": "9f5be8c6f8d1e97400fdaf8cf11057c1f0e7d3c0701a9dca3d2fd3ce9f2671f1"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "f3a7205e-861f-53f8-8d78-7272dc2d9204",
+      "sha256": "90374121196c64caf8bb42e00c225213aaa2943a0384360bcf3534c3e0a8faf1"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "f3ff29dd-c34d-5bc7-b20b-0d7b4a883614",
+      "sha256": "b92c760ecdd8e0c54c4e5266704b99ffc3fca8edc978fd8892eef80244bcc7cd"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "f84d5ebb-180a-5531-a12f-3301a1504213",
+      "sha256": "654abcf403117614a32fb38529bc99996aa97e052da5657022a926528640c59d"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "fa4ab652-504b-5848-8016-8753c563c8bb",
+      "sha256": "5ed1c086a99038321b90bcebd6e39456beaefe7acc4af937b52ddebab21d263a"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "fb128ebf-439b-5338-8e60-4fd3b5beff77",
+      "sha256": "4883710976824ed6749ecbc0d87a2ba2266a40a4f97ba27eaa3ddcdc06073e1e"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "fb778928-14c3-54d2-93a5-738315dc789d",
+      "sha256": "9d0bedbda397aeb74dc42af9f36071098f10f2fdcae1b3dcc3ef5a6f6f0640bd"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "fd6c7c8a-541b-50fb-9daf-04dd72f74650",
+      "sha256": "e1c2bbe0497cb45f0e85186fe002aad9a3b053b9e78a159d85d6de2b8631ff7f"
+    },
+    {
+      "setGuid": "cf26f448-c0cc-5bfd-8b5b-523bb26b48df",
+      "cardGuid": "fdf1e4e7-e3ed-503f-8d80-bad4d30c80e6",
+      "sha256": "6ce62ee00049a7c8105ab4bf85ff8daf441c67cb496fb9adeccafa68225eeeb8"
     },
     {
       "setGuid": "f1d432be-800c-5716-abc5-b9a03e6bc228",

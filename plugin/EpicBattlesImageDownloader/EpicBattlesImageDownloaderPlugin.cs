@@ -23,7 +23,7 @@ namespace EpicBattlesImageDownloader
         public void OnLoad(GameManager games) { }
         public Guid Id => Guid.Parse("76d85e91-b9e0-4b7e-95b1-213204571c4a");
         public string Name => "Epic Battles Online Image Downloader";
-        public Version Version => Version.Parse("0.4.0.0");
+        public Version Version => Version.Parse("0.5.0.0");
         public Version RequiredByOctgnVersion => Version.Parse("3.1.240.0");
     }
 
@@ -97,14 +97,14 @@ namespace EpicBattlesImageDownloader
         private static HttpClient CreateClient()
         {
             var c = new HttpClient { Timeout = TimeSpan.FromSeconds(45) };
-            c.DefaultRequestHeaders.UserAgent.ParseAdd("OCTGN-Epic-Battles-Image-Downloader/0.4.0");
+            c.DefaultRequestHeaders.UserAgent.ParseAdd("OCTGN-Epic-Battles-Image-Downloader/0.5.0");
             c.DefaultRequestHeaders.CacheControl = new System.Net.Http.Headers.CacheControlHeaderValue { NoCache = true, NoStore = true };
             return c;
         }
 
         public static async Task<Catalog> LoadAsync(Game game)
         {
-            var json = await Client.GetStringAsync(BaseUrl + "manifest.json?v=0.4.0.0");
+            var json = await Client.GetStringAsync(BaseUrl + "manifest.json?v=0.5.0.0");
             var manifest = new JavaScriptSerializer().Deserialize<Manifest>(json);
             Guid gameId;
             if (manifest == null || !Guid.TryParse(manifest.gameGuid, out gameId) || gameId != EpicBattlesImageDownloaderPlugin.GameId)
