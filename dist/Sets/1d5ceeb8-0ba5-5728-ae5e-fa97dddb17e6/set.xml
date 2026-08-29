@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set name="MK Premiere" id="1d5ceeb8-0ba5-5728-ae5e-fa97dddb17e6" gameId="336cc7ef-c808-5f75-a22e-0171564da1e3" gameVersion="0.4.0.0" version="1.0">
+  <cards>
+    <card id="c0662e48-9739-5804-895e-98c048fda327" name="Dairou">
+      <property name="ImageFile" value="MK01" />
+      <property name="Number" value="001" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="You may remove 3 cards in your discard pile at the start of Draw. (*) When you draw a card, you may draw if from the bottom of your discard pile if that card is a weapon. (*) Your punches do +1 damage for each different kamidogu you control." />
+    </card>
+    <card id="cd6caa26-3df2-537e-8425-98e4eefd8119" name="Kira">
+      <property name="ImageFile" value="MK02" />
+      <property name="Number" value="002" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="When your effects discard the last card(s) in your rival's hand, you may play a kamidogu. (*) When you play a kick or weapon, it does +1 damage for each card you have in your hand over your rival's hand." />
+    </card>
+    <card id="8f83ceb9-558a-54a8-a8b6-79faf4dc5962" name="Kobra">
+      <property name="ImageFile" value="MK03" />
+      <property name="Number" value="003" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="When a punch or kick is damaged from your deck, you may switch it with a card in your hand. (*) When you play an attack, you may reveal a copy of it from your hand to have the attack do +4 damage." />
+    </card>
+    <card id="b05eeccf-fc9c-545b-a358-b514224cecae" name="Li Mei">
+      <property name="ImageFile" value="MK04" />
+      <property name="Number" value="004" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="When you finish a combo that ends with 2 or more consecutive kicks and/or projectiles that hit, you may play a kamidogu. (*) Discard the top 2 cards of your rival's deck when you play or gain control of a kamidogu." />
+    </card>
+    <card id="5de5d265-3a89-5776-9708-eb1bbf419962" name="Mileena">
+      <property name="ImageFile" value="MK05" />
+      <property name="Number" value="005" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Your attacks that link into kicks also link into weapons, and vice versa. (*) When you finish a combo, you block all your rival's attacks in his next action that do X damage. X = number of attacks in your combo." />
+    </card>
+    <card id="0b76b327-8e4a-564d-b11d-9e07dca75958" name="Scorpion">
+      <property name="ImageFile" value="MK06" />
+      <property name="Number" value="006" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="When one of your projectiles or weapons hits, discard a rival's card in the arena. (*) When one of your attacks finish, you may discard it from your energy pile to discard an attack in your rival's energy pile with the same trait." />
+    </card>
+    <card id="fa876ee9-1c66-5194-a055-da512468c16c" name="Shujinko">
+      <property name="ImageFile" value="MK07" />
+      <property name="Number" value="007" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Your deck may contain cards with any character's title. (*) Your first attack each turn does +X damage. X = the number of Kamidogu you control." />
+    </card>
+    <card id="40d9490e-5fae-5435-a872-a57be58429ec" name="Obligatory Violence">
+      <property name="ImageFile" value="MK08" />
+      <property name="Number" value="008" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Flip when you attack. Your attack does +4 damage. (*) You cannot link off of this attack." />
+    </card>
+    <card id="c9898210-023e-5b55-9c27-70b1832d581b" name="Vixen Vendetta">
+      <property name="ImageFile" value="MK09" />
+      <property name="Number" value="009" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Flip as an action in Battle. Put the top card of your discard pile on top of your deck." />
+    </card>
+    <card id="38574b20-f3ec-596b-85a4-7366a4a27ff1" name="Arm Snapper">
+      <property name="ImageFile" value="MK10" />
+      <property name="Number" value="010" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="HIT - Name a block. Your rival cannot play that block during this combo." />
+    </card>
+    <card id="4fec1bf1-55b8-5cbc-99b0-7aa7ddcdf34c" name="Back Stomp">
+      <property name="ImageFile" value="MK11" />
+      <property name="Number" value="012" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Throw" />
+      <property name="Text" value="HIT - Your rival's attacks in his next action do -1 damage." />
+    </card>
+    <card id="4117bac4-c73b-5a90-bc32-8944812d09a8" name="Axe Throw">
+      <property name="ImageFile" value="MK12" />
+      <property name="Number" value="011" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="HIT - Name a block. Your rival cannot play that block during this combo." />
+    </card>
+    <card id="4ad3625d-608f-5413-991f-937af7e03261" name="Chaos Axe Kick">
+      <property name="ImageFile" value="MK13" />
+      <property name="Number" value="013" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="When an attack in this combo puts any card(s) into your deck from its effect, it does +X damage. X = the number of cards it puts into your deck." />
+    </card>
+    <card id="6686b99b-e43b-52aa-b4e0-53e1715eb0f3" name="Dairou's Stretch and Slam">
+      <property name="ImageFile" value="MK14" />
+      <property name="Number" value="014" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="Throw" />
+      <property name="Text" value="This attack does +3 damage for each kamidogu you control." />
+    </card>
+    <card id="2200144b-9112-5722-963a-75214015651f" name="Eye Gouge">
+      <property name="ImageFile" value="MK15" />
+      <property name="Number" value="015" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Throw" />
+      <property name="Text" value="HIT - Name an attack trait. Your rival's first attack in his next action cannot have that trait." />
+    </card>
+    <card id="5b8777f1-b84e-52bc-acd5-f3b0ecb64086" name="Frankensteiner">
+      <property name="ImageFile" value="MK16" />
+      <property name="Number" value="016" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="HIT - Rearrange the order of your discard pile." />
+    </card>
+    <card id="41f40aa0-1137-5e36-80bc-3a728a28a8ab" name="Front Flip">
+      <property name="ImageFile" value="MK17" />
+      <property name="Number" value="017" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Weapon" />
+      <property name="Text" value="HIT - Your rival cannot use &quot;HIT -&quot; effects in his next action." />
+    </card>
+    <card id="8d1d8c1a-4fab-516c-9b38-302627554c0c" name="Hair Kut">
+      <property name="ImageFile" value="MK18" />
+      <property name="Number" value="018" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Projectile" />
+      <property name="Text" value="While in your energy pile, your rival cannot play any copy of an attack he has in his energy pile." />
+    </card>
+    <card id="68817cec-138a-5ca4-8092-64e3f1aeb4d5" name="Jawbreaker">
+      <property name="ImageFile" value="19_mk2" />
+      <property name="Number" value="019" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="If any attack in this combo lowers your rival's damage, increase the amount lowered by 1." />
+    </card>
+    <card id="98679a81-eec7-54f0-ae9c-f1e16e1284b8" name="Kenshi's Telekinetic Push">
+      <property name="ImageFile" value="MK20" />
+      <property name="Number" value="020" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="When this card is put in your energy pile choose a card in your rival's energy pile that creates an effect while in his energy pile. The chosen card has a blank text box while this card is in your energy pile." />
+    </card>
+    <card id="08692ece-4cf4-5d49-a5f8-b167d5d96237" name="Kira's Neck Slicer">
+      <property name="ImageFile" value="MK21" />
+      <property name="Number" value="021" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="If your rival has no cards in his hand, this attack does +15 damage." />
+    </card>
+    <card id="7082b4ed-c066-592a-b575-4ddcfde4fe6b" name="Klothes Klipping">
+      <property name="ImageFile" value="MK22" />
+      <property name="Number" value="022" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="Projectile" />
+      <property name="Text" value="HIT - At the start of your rival's next action, he must pay 2 energy or pass." />
+    </card>
+    <card id="17b8fd30-10c3-52a9-b240-cbbda29b248f" name="Knee Launch">
+      <property name="ImageFile" value="MK23" />
+      <property name="Number" value="023" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Projectile" />
+      <property name="Text" value="The next attack in this combo can link to any trait." />
+    </card>
+    <card id="9fbdb059-0636-54e4-bf35-67dfc4a1ad96" name="Knee Popper">
+      <property name="ImageFile" value="MK24" />
+      <property name="Number" value="024" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Projectile" />
+      <property name="Text" value="The costs of this attack and any future attack in this combo cannot be modified." />
+    </card>
+    <card id="2bde483d-295f-5e70-a0a2-c88b9879c730" name="Kobra's Windmill Kick">
+      <property name="ImageFile" value="MK25" />
+      <property name="Number" value="025" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="12" />
+      <property name="Link" value="" />
+      <property name="Text" value="While this card is in your energy pile when you play an attack, you may reveal from your hand a copy of the attack you played for it to do +4 damage." />
+    </card>
+    <card id="6030f2bc-db3a-518e-b6d8-2c1f0969c55b" name="Li Mei's Flipping Heel Kick">
+      <property name="ImageFile" value="MK26" />
+      <property name="Number" value="026" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="Gain control of a kamidogu your rival controls." />
+    </card>
+    <card id="159a302e-5959-5ee0-bd9f-803f3fefdbea" name="Lightning from Above">
+      <property name="ImageFile" value="MK27" />
+      <property name="Number" value="027" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="0" />
+      <property name="Link" value="" />
+      <property name="Text" value="Discard the bottom 2 cards of your rival's deck." />
+    </card>
+    <card id="970f8ed9-cf6c-5501-ab04-77280dd89cda" name="Mileena's Head Bite">
+      <property name="ImageFile" value="MK28" />
+      <property name="Number" value="028" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Bite" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="If your rival passed in 3 consecutive actions this step, this attack does +15 damage." />
+    </card>
+    <card id="68513f48-95dc-566e-8b05-a13336fadb24" name="Raiden's Shocking Touch">
+      <property name="ImageFile" value="MK29" />
+      <property name="Number" value="029" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="8" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - Search your rival's deck for up to 4 cards and discard them. Your rival shuffles his deck." />
+    </card>
+    <card id="9a670c19-1a2d-5807-9bc3-69ba94a6dbe3" name="Scorpion's Head Rip">
+      <property name="ImageFile" value="MK30" />
+      <property name="Number" value="030" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Throw" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="If you discarded 3 or more cards in your rival's energy pile this step, this attack does +15 damage." />
+    </card>
+    <card id="a6ca4f15-7270-579d-8345-e3008f902d90" name="Sindel's Star Screamer">
+      <property name="ImageFile" value="MK31" />
+      <property name="Number" value="031" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="12" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - Choose 2 cards in your rival's discard pile. Your rival discards 2 random cards from his hand and puts the 2 chosen cards into it." />
+    </card>
+    <card id="e9b4d43d-bd59-529e-a85e-c472ed46fbe7" name="Shujinko's Flaming Fist">
+      <property name="ImageFile" value="MK32" />
+      <property name="Number" value="032" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="When your modifiers increase damage to this attack double that increase up to +10." />
+    </card>
+    <card id="0370189e-7845-5e8b-8563-adababbf4491" name="Bloodletter">
+      <property name="ImageFile" value="MK33" />
+      <property name="Number" value="033" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="1" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="This attack does +1 damage for each card in your rival's hand." />
+    </card>
+    <card id="7802043c-f57f-5b5e-adfc-039d972de35d" name="Crackling Legs Projectile">
+      <property name="ImageFile" value="MK34" />
+      <property name="Number" value="034" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Weapon" />
+      <property name="Text" value="HIT - Gain control of a rival's kamidogu." />
+    </card>
+    <card id="a3d8ae80-6bbe-5472-80eb-308c754f463c" name="Darrius' Target Practice">
+      <property name="ImageFile" value="MK35" />
+      <property name="Number" value="035" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="7" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="Search a player's deck for a card and discard it. That player shuffles his deck. (*) HIT - Switch a punch in your discard pile with a card in your energy pile." />
+    </card>
+    <card id="264a1874-6bdc-5381-b762-c13ab194a65f" name="Ki War">
+      <property name="ImageFile" value="MK36" />
+      <property name="Number" value="036" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="1" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="If played by Sub-Zero, your rival's next action this step is skipped. (*) HIT - Discard the top card of your rival's deck for each projectile in your energy pile." />
+    </card>
+    <card id="ecd6486f-5d5b-5fb0-8641-63893bf15df3" name="Klean Break">
+      <property name="ImageFile" value="MK37" />
+      <property name="Number" value="037" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="0" />
+      <property name="Link" value="Weapon" />
+      <property name="Text" value="This attack does +4 damage." />
+    </card>
+    <card id="555a642b-4ca9-5fe9-bbc5-beba62881fa6" name="Knife Pinning">
+      <property name="ImageFile" value="MK38" />
+      <property name="Number" value="038" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="HIT - Choose a trait in your rival's energy pile. Your rival's first 2 attacks in his next action cannot have that trait." />
+    </card>
+    <card id="07cd0c7f-c596-54b6-93eb-b97b26237c13" name="Missile Murder">
+      <property name="ImageFile" value="MK39" />
+      <property name="Number" value="039" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Throw" />
+      <property name="Text" value="When the next attack in this combo hits, put a card from your discard pile into your energy pile." />
+    </card>
+    <card id="9457aa68-4e2c-5889-a774-f885d4fe62a4" name="Overloaded">
+      <property name="ImageFile" value="MK40" />
+      <property name="Number" value="040" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="HIT - Reveal a random card in your rival's hand. Discard X cards from the top of his deck. X = the revealed card's cost." />
+    </card>
+    <card id="688ad805-660f-5853-8825-1759791d8efe" name="Pinpoint Disarm">
+      <property name="ImageFile" value="MK41" />
+      <property name="Number" value="041" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="HIT - Your rival cannot play weapons this step." />
+    </card>
+    <card id="27887688-178f-5d2a-a787-7f0ad02d1ad9" name="Skirt Sweep">
+      <property name="ImageFile" value="MK42" />
+      <property name="Number" value="042" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Weapon" />
+      <property name="Text" value="Your rival's attacks go to the discard pile instead of the energy pile when they finish this step. Each time he does this, he puts the top card of his deck into his energy pile." />
+    </card>
+    <card id="8c5a4548-bf9b-5f50-a4e5-3fedf4c02c3b" name="Staff Trip">
+      <property name="ImageFile" value="MK43" />
+      <property name="Number" value="043" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Throw" />
+      <property name="Text" value="HIT - If your rival has cards in his energy pile, his first attack in his next action cannot be a 0 cost attack." />
+    </card>
+    <card id="32355108-5c72-5ce2-b696-134b1786afd0" name="Tactical Thunder">
+      <property name="ImageFile" value="MK44" />
+      <property name="Number" value="044" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Electric" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Throw" />
+      <property name="Text" value="HIT - Your rival must pay +1 energy to block your next attack in this Combo." />
+    </card>
+    <card id="208103c7-ee5f-5e99-9dec-a58143301038" name="Toe Krush">
+      <property name="ImageFile" value="MK45" />
+      <property name="Number" value="045" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="Pay any amount of energy up to your total energy. Your rival cannot play attacks in his next action that cost less than or equal to the energy you just paid." />
+    </card>
+    <card id="a6488fcc-1473-5c0e-8b10-5e23a0a7c02f" name="Tomahawk Chop">
+      <property name="ImageFile" value="MK46" />
+      <property name="Number" value="046" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="If this is your 5th or higher attack in this combo, this attack does +5 damage." />
+    </card>
+    <card id="884320d5-69ba-57d4-94bb-3a1c0a1de830" name="Trick Shot">
+      <property name="ImageFile" value="MK47" />
+      <property name="Number" value="047" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Kick" />
+      <property name="Text" value="HIT - Put the kick closest to the top of your discard pile on top of your deck." />
+    </card>
+    <card id="ea39fb64-bf6b-5b30-8c73-f7aba5ca7ca6" name="Kounterslice">
+      <property name="ImageFile" value="MK48" />
+      <property name="Number" value="048" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="High Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="If you have a kick in your energy pile, shuffle this card into your deck." />
+    </card>
+    <card id="c8e97a0d-506f-5d2b-abca-683a70bfeedd" name="Krossbar">
+      <property name="ImageFile" value="MK49" />
+      <property name="Number" value="049" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="High Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="If you have a weapon in your energy pile, put this card into your energy pile." />
+    </card>
+    <card id="2845e2e3-f146-552a-9662-ad0fd593ad93" name="Left Sidestep">
+      <property name="ImageFile" value="MK50" />
+      <property name="Number" value="050" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="High Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="MORTAL KOMBAT ONLY. (*) When this card is damaged from your deck, you may pay 1 energy to put it into your hand." />
+    </card>
+    <card id="c2de723d-6bc6-5a34-a8bf-db15ef07dd99" name="Golf Swing">
+      <property name="ImageFile" value="MK51" />
+      <property name="Number" value="051" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="Low Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="While you have a weapon in your energy pile this step, your rival cannot take control of the kamidogu you control." />
+    </card>
+    <card id="f06cd5c6-2a4c-5869-9e21-d1003904fdfb" name="Nimble">
+      <property name="ImageFile" value="MK52" />
+      <property name="Number" value="052" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="Low Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="You may pay 1 energy to put a block from your discard pile on top of your deck." />
+    </card>
+    <card id="aca8956a-610f-5e2a-ae2d-db438279c6d1" name="Right Sidestep">
+      <property name="ImageFile" value="MK53" />
+      <property name="Number" value="053" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="Low Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="MORTAL KOMBAT ONLY (*) When this card is damaged from your deck, you may pay 1 energy to put it into your hand." />
+    </card>
+    <card id="5e0a32f5-a920-5123-8f3d-02ddf9dc0b27" name="Roller">
+      <property name="ImageFile" value="MK54" />
+      <property name="Number" value="054" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Block" />
+      <property name="Attack" value="Low Block" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="If you have a punch in your energy pile, gain control of a rival's kamidogu." />
+    </card>
+    <card id="160f5c11-8bb7-5f7f-ae18-8bca672b6361" name="Earthrealm">
+      <property name="ImageFile" value="MK55" />
+      <property name="Number" value="055" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Kamidogu" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Put the top card of your discard pile into your energy pile." />
+    </card>
+    <card id="907431d1-b6bd-5022-91a4-6cb5952f34d9" name="Netherrealm">
+      <property name="ImageFile" value="MK56" />
+      <property name="Number" value="056" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Kamidogu" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="While you control this card, your rival discards the top 2 cards of his deck at the start of Battle." />
+    </card>
+    <card id="a89c0b26-d938-5d03-b693-376937e49c00" name="Orderrealm">
+      <property name="ImageFile" value="MK57" />
+      <property name="Number" value="057" />
+      <property name="Rarity" value="Common" />
+      <property name="Card Type" value="Kamidogu" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Put any 3 cards in your discard pile on top of your deck. (*) You may play this kamidogu as an action in battle." />
+    </card>
+    <card id="b3d4cfd6-ca58-5aef-a009-da35bc3baa87" name="Kenshi">
+      <property name="ImageFile" value="MK58" />
+      <property name="Number" value="058" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="All effects on your rival's attacks are now &quot;HIT -&quot; effects. (*) When your rival flips an event, you may remove X weapons or projectiles from your discard pile to blank out its text box. X = the cost of the event +1." />
+    </card>
+    <card id="972af799-19cd-5b5d-b778-8b57580e706c" name="Raiden">
+      <property name="ImageFile" value="MK59" />
+      <property name="Number" value="059" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="When attacking with an electric, you may change it to a throw or projectile for that attack. (*) When you finish a throw or projectile that hit, search your rival's deck for a card and discard it. Your rival shuffles his deck." />
+    </card>
+    <card id="56ce3cf4-20f0-5174-9734-de7adfda8e8d" name="Kontinuing Legacy">
+      <property name="ImageFile" value="MK60" />
+      <property name="Number" value="060" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Flip when you attack. Put this card into your energy pile. (*) While in your energy pile, your rival's effects cannot discard other cards from your energy pile. (*) Limit 1 per deck." />
+    </card>
+    <card id="a2e7a025-2865-5fe7-b7fe-6635fc5d5918" name="Puzzle Kombat">
+      <property name="ImageFile" value="MK61" />
+      <property name="Number" value="061" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Flip at the end of Discard. Your rival discards a card from his hand." />
+    </card>
+    <card id="c64b53ab-75a9-5295-8aca-88eac0cc6333" name="Toasty">
+      <property name="ImageFile" value="MK62" />
+      <property name="Number" value="062" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Flip when you attack. This attack gains &quot;HIT - Your rival discards the top 4 cards of his deck.&quot;" />
+    </card>
+    <card id="c2d4b41e-f44a-5f78-8bc0-080a88b3e5be" name="Baraka's Mutant Blades">
+      <property name="ImageFile" value="MK63" />
+      <property name="Number" value="063" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="2" />
+      <property name="Link" value="Weapon" />
+      <property name="Text" value="This attack does +8 damage." />
+    </card>
+    <card id="5eb6d051-aa0a-58d6-9ab0-1b3af38a659f" name="Hotaru's Grasshopper">
+      <property name="ImageFile" value="MK64" />
+      <property name="Number" value="064" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Kick" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="While in your energy pile, you may discard this card when your rival plays a 0 or 1 cost attack to block that attack." />
+    </card>
+    <card id="e6e8fe23-fcda-50ad-864b-501d71050373" name="Jade's Amazon Power Strike">
+      <property name="ImageFile" value="MK65" />
+      <property name="Number" value="065" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="7" />
+      <property name="Link" value="Punch" />
+      <property name="Text" value="While in your energy pile, any of your modifiers to your attacks gain +1. If this card is discarded to pay for &quot;Jade's Blazing Nitro Kick,&quot; put this card in your hand." />
+    </card>
+    <card id="99491b4d-04a2-5e03-9f25-599d9ff24e7c" name="Kabal's Raging Flash">
+      <property name="ImageFile" value="MK66" />
+      <property name="Number" value="066" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Slam" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="12" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - Your rival shuffles his deck." />
+    </card>
+    <card id="a2d87892-85dd-5422-9f7c-aab321ff63df" name="Kenshi's Telekinetic Rip">
+      <property name="ImageFile" value="MK67" />
+      <property name="Number" value="067" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="If another effect makes this attack unblockable and it defeats your rival this round, you are the aggressor in the next round of this game, and you start the round with 6 cards instead of 3." />
+    </card>
+    <card id="b16db6a0-7e01-5047-b84e-d9565c79de9d" name="Kira's Black Dragon Ball">
+      <property name="ImageFile" value="MK68" />
+      <property name="Number" value="068" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Slam" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - Your rival reveals his hand. Choose and discard a card in his hand." />
+    </card>
+    <card id="aee01211-c1a6-5d62-b0dd-4f2915c42377" name="Kobra's Heart Rip">
+      <property name="ImageFile" value="MK69" />
+      <property name="Number" value="069" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="Reveal 3 /Kobra's Heart Rip/ cards from your hand. If you do, this attack does +15 damage." />
+    </card>
+    <card id="d0b9743c-4d79-5cb9-87a1-2a86e2a0cd37" name="Li Mei's Aftershock">
+      <property name="ImageFile" value="MK70" />
+      <property name="Number" value="070" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - If you control 6 different kamidogu, you win the round." />
+    </card>
+    <card id="a5be6417-8a84-51a9-a4eb-b45ec7b8c3a2" name="Noob Smoke's Dark Assassin">
+      <property name="ImageFile" value="MK71" />
+      <property name="Number" value="071" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="15" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - You may put your hand at the bottom of your deck and draw 3 cards." />
+    </card>
+    <card id="9d8e4fb8-ebc5-556b-98c9-bad4c0c52cef" name="Raiden's Electrify">
+      <property name="ImageFile" value="MK72" />
+      <property name="Number" value="072" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Electric" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="If your rival has 4 copies of 2 different cards in his discard pile, this attack does +15 damage." />
+    </card>
+    <card id="f3370793-8a94-58dc-b9d1-2125a7b7b78a" name="Scorpion's Bloody Spear">
+      <property name="ImageFile" value="MK73" />
+      <property name="Number" value="073" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="While in your energy pile, this card has all attack traits. (*) HIT - Your next attack this turn cannot be stopped." />
+    </card>
+    <card id="2a6698c2-0de1-5bdb-b2ca-45d774826e10" name="Shujinko's Master Swordplay">
+      <property name="ImageFile" value="MK74" />
+      <property name="Number" value="074" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="High Attack" />
+      <property name="Attack Type" value="Weapon" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="20" />
+      <property name="Link" value="" />
+      <property name="Text" value="If this attack is played from the top of your deck with Shujinko's effect, it does +15 damage." />
+    </card>
+    <card id="e0b32ef4-fb99-5cd4-b0c5-63a6d994989b" name="Ashrah's Heavenly LIght">
+      <property name="ImageFile" value="MK75" />
+      <property name="Number" value="075" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="When you play another attack this step, you may switch a card in your hand with a card in your energy pile. (*) HIT - Put a weapon or projectile from your discard pile into your energy pile." />
+    </card>
+    <card id="d07e21d1-d4bb-590a-96d0-90f592a6e8c4" name="Bo' Rai Cho's Earthquake">
+      <property name="ImageFile" value="MK76" />
+      <property name="Number" value="076" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="While in your energy pile, increase the number of times per attack you can use Bo' Rai Cho's text by +1." />
+    </card>
+    <card id="7c15cff1-a4bf-5e47-98ed-66bb4654e824" name="Dairou's Tombstone Drop">
+      <property name="ImageFile" value="MK77" />
+      <property name="Number" value="077" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="7" />
+      <property name="Link" value="" />
+      <property name="Text" value="This attack is unblockable. (*) Rearrange your discard pile." />
+    </card>
+    <card id="da411843-45ec-5834-8e0a-72ddde8011ad" name="Mileena's Soaring Sai">
+      <property name="ImageFile" value="MK78" />
+      <property name="Number" value="078" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Projectile" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="10" />
+      <property name="Link" value="" />
+      <property name="Text" value="While in your energy pile, your rival discards the top card of his deck when you block one of his attacks." />
+    </card>
+    <card id="e129799a-0596-52bd-b5f5-87e71320615a" name="Sub-Zero's Cold Shoulder">
+      <property name="ImageFile" value="MK79" />
+      <property name="Number" value="079" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="Slam" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="7" />
+      <property name="Link" value="" />
+      <property name="Text" value="You may switch a card from your hand with a card in your energy pile that has &quot;Sub-Zero&quot; in its text box. (*) HIT - You may choose for the aggressor to not change at the end of the turn." />
+    </card>
+    <card id="85f8e432-4310-51a9-81db-00dcd7ca3d33" name="Chaosrealm">
+      <property name="ImageFile" value="MK80" />
+      <property name="Number" value="080" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Kamidogu" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Your rival discards 2 cards from his hand." />
+    </card>
+    <card id="35cc1c7c-ebd7-5e5a-b3f4-bce689cd3b07" name="Edenia">
+      <property name="ImageFile" value="MK81" />
+      <property name="Number" value="081" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Kamidogu" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Set up to 2 events from your discard pile." />
+    </card>
+    <card id="d7c181a8-eb9e-5592-969e-ff3eabb6785c" name="Outworld">
+      <property name="ImageFile" value="MK82" />
+      <property name="Number" value="082" />
+      <property name="Rarity" value="Rare" />
+      <property name="Card Type" value="Kamidogu" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Draw the top 2 cards of your discard pile. Discard 2 cards from your hand." />
+    </card>
+    <card id="3a7a1780-9c9b-52e8-9f79-d657ac363674" name="Dragon's Victory">
+      <property name="ImageFile" value="MK83" />
+      <property name="Number" value="083" />
+      <property name="Rarity" value="Ultra Rare" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Flip when you attack. While you control 6 different kamidogu this turn, your attacks do +30 damage and are unblockable. (*) Limit 1 per deck." />
+    </card>
+    <card id="4f3bf31b-b03c-5e1b-a508-dc6885d3f241" name="Kollecting Kamidogu">
+      <property name="ImageFile" value="MK84" />
+      <property name="Number" value="084" />
+      <property name="Rarity" value="Ultra Rare" />
+      <property name="Card Type" value="Event" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Flip as an action in Battle. Play a kamidogu from your side deck.(*)Limit 1 per deck." />
+    </card>
+    <card id="e768f066-6ddf-554e-8cc0-9430cc50d098" name="Back Whack">
+      <property name="ImageFile" value="MK4" />
+      <property name="Number" value="MK4" />
+      <property name="Rarity" value="Promo" />
+      <property name="Card Type" value="Attack" />
+      <property name="Attack" value="Low Attack" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="HIT - At the start of your rival's next action, he must either discard a card from his hand or pass." />
+    </card>
+  </cards>
+</set>
