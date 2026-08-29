@@ -1094,11 +1094,6 @@
     },
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
-      "cardGuid": "30335644-991c-534c-a9b7-39b57e6e1983",
-      "sha256": "752924a1eb14e0a320a2234e68fe891f099ece68b7c15280535e62fbb6a8fc87"
-    },
-    {
-      "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
       "cardGuid": "34c98b4b-5d47-5948-9897-f1448bf25d22",
       "sha256": "1cc5e97f37416296c68aff921ce446ff03c164bf985b3cbf45d63d264738b8d5"
     },

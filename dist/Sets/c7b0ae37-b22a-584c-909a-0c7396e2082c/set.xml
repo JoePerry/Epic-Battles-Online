@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <set name="Marvel Vs Capcom" id="c7b0ae37-b22a-584c-909a-0c7396e2082c" gameId="336cc7ef-c808-5f75-a22e-0171564da1e3" gameVersion="0.7.0.0" version="1.0">
   <cards>
     <card id="d89027d0-725b-5c9e-b88f-f8bee63b7f05" name="Captain Commando">
@@ -61,7 +61,7 @@
       <property name="Link" value="--" />
       <property name="Text" value="When you finish a combo that hit Heal X. X = the number of hits in that combo. ♦ Your rival discards the top card of their deck when they play a block." />
     </card>
-    <card id="30335644-991c-534c-a9b7-39b57e6e1983" name="Morrigan" alternate="7bff2d8f-222e-5668-83dd-465e9c980207" />
+    
     <card id="5aefb3f0-31bc-5d18-a4f5-9c9ac855b5cb" name="Ryu">
       <property name="ImageFile" value="MVC1_06" />
       <property name="Number" value="6" />
@@ -84,7 +84,7 @@
       <property name="Cost" value="--" />
       <property name="Damage" value="--" />
       <property name="Link" value="--" />
-      <property name="Text" value="Attacks you play gain: “BLOCKED – Remove this card&#10;from the game.” (*) When entering Combat, you may take a &#10;0-cost attack from your discard pile and put it into your &#10;hand." />
+      <property name="Text" value="Attacks you play gain: “BLOCKED – Remove this card&#xA;from the game.” (*) When entering Combat, you may take a &#xA;0-cost attack from your discard pile and put it into your &#xA;hand." />
     </card>
     <card id="bd2c6883-3d62-52aa-b32f-b162a3239fea" name="Zangief">
       <property name="ImageFile" value="MVC1_08" />
@@ -360,7 +360,7 @@
       <property name="Cost" value="2" />
       <property name="Damage" value="7" />
       <property name="Link" value="Punch" />
-      <property name="Text" value="HIT - If your rival has played a block this turn, deal &#10;+3 damage." />
+      <property name="Text" value="HIT - If your rival has played a block this turn, deal &#xA;+3 damage." />
     </card>
     <card id="bc0c8997-b41c-5078-83c1-a074ab9385e1" name="Baby Head’s Knee Rocket">
       <property name="ImageFile" value="MVC1_31" />
