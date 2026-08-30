@@ -25,7 +25,7 @@ namespace EpicBattlesImageDownloader
         public void OnLoad(GameManager games) { }
         public Guid Id => Guid.Parse("76d85e91-b9e0-4b7e-95b1-213204571c4a");
         public string Name => "Epic Battles Online Image Downloader";
-        public Version Version => Version.Parse("0.9.0.0");
+        public Version Version => Version.Parse("0.9.0.1");
         public Version RequiredByOctgnVersion => Version.Parse("3.1.240.0");
     }
 
@@ -150,14 +150,14 @@ namespace EpicBattlesImageDownloader
         private static HttpClient CreateClient()
         {
             var c = new HttpClient { Timeout = TimeSpan.FromSeconds(45) };
-            c.DefaultRequestHeaders.UserAgent.ParseAdd("OCTGN-Epic-Battles-Image-Downloader/0.9.0");
+            c.DefaultRequestHeaders.UserAgent.ParseAdd("OCTGN-Epic-Battles-Image-Downloader/0.9.0.1");
             c.DefaultRequestHeaders.CacheControl = new System.Net.Http.Headers.CacheControlHeaderValue { NoCache = true, NoStore = true };
             return c;
         }
 
         public static async Task<Catalog> LoadAsync(Game game)
         {
-            var json = await Client.GetStringAsync(BaseUrl + "manifest.json?v=0.9.0.0");
+            var json = await Client.GetStringAsync(BaseUrl + "manifest.json?v=0.9.0.1");
             var manifest = new JavaScriptSerializer().Deserialize<Manifest>(json);
             Guid gameId;
             if (manifest == null || !Guid.TryParse(manifest.gameGuid, out gameId) || gameId != EpicBattlesImageDownloaderPlugin.GameId)
@@ -224,8 +224,8 @@ namespace EpicBattlesImageDownloader
     internal sealed class RemoteImage
     {
         private RemoteImage(Guid cardId, string url, string sha256) { CardId = cardId; Url = url; Sha256 = sha256; }
-        public static RemoteImage Create(Guid setId, ManifestImage item) { Guid cardId; if (!Guid.TryParse(item.cardGuid, out cardId)) throw new InvalidDataException("Invalid card ID in image catalog."); return new RemoteImage(cardId, Base(setId, cardId), item.sha256); }
-        private static string Base(Guid setId, Guid cardId) { return "https://raw.githubusercontent.com/JoePerry/Epic-Battles-Online/main/image-host/images/" + setId + "/" + cardId + ".jpg"; }
+        public static RemoteImage Create(Guid setId, ManifestImage item) { Guid cardId; if (!Guid.TryParse(item.cardGuid, out cardId)) throw new InvalidDataException("Invalid card ID in image catalog."); return new RemoteImage(cardId, Base(setId, cardId, item.sha256), item.sha256); }
+        private static string Base(Guid setId, Guid cardId, string sha256) { return "https://raw.githubusercontent.com/JoePerry/Epic-Battles-Online/main/image-host/images/" + setId + "/" + cardId + ".jpg?v=" + Uri.EscapeDataString(sha256 ?? String.Empty); }
         public Guid CardId { get; private set; } public string Url { get; private set; } public string Sha256 { get; private set; }
     }
     internal sealed class Manifest { public string gameGuid { get; set; } public List<ManifestImage> images { get; set; } }
