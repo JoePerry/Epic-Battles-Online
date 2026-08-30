@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set name="MK Premiere" id="1d5ceeb8-0ba5-5728-ae5e-fa97dddb17e6" gameId="336cc7ef-c808-5f75-a22e-0171564da1e3" gameVersion="0.8.0.0" version="1.0">
+<set name="MK Premiere" id="1d5ceeb8-0ba5-5728-ae5e-fa97dddb17e6" gameId="336cc7ef-c808-5f75-a22e-0171564da1e3" gameVersion="0.9.0.0" version="1.0">
   <cards>
     <card id="c0662e48-9739-5804-895e-98c048fda327" name="Dairou">
       <property name="ImageFile" value="MK01" />
@@ -1020,6 +1020,18 @@
       <property name="Damage" value="" />
       <property name="Link" value="" />
       <property name="Text" value="HIT - At the start of your rival's next action, he must either discard a card from his hand or pass." />
+    </card>
+    <card id="35b0c257-c2a8-4d26-99d5-d7ac39482586" name="Quan Chi">
+      <property name="ImageFile" value="MK85" />
+      <property name="Number" value="085" />
+      <property name="Rarity" value="Hidden Rare" />
+      <property name="Card Type" value="Character" />
+      <property name="Attack" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Link" value="" />
+      <property name="Text" value="Draw the bottom card of your discard pile at the start of Battle.  When you finish a combo, your rival discards a card from their hand." />
     </card>
   </cards>
 </set>

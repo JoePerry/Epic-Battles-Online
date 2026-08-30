@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set name="MK Round 1" id="cf26f448-c0cc-5bfd-8b5b-523bb26b48df" gameId="336cc7ef-c808-5f75-a22e-0171564da1e3" gameVersion="0.8.0.0" version="1.0">
+<set name="MK Round 1" id="cf26f448-c0cc-5bfd-8b5b-523bb26b48df" gameId="336cc7ef-c808-5f75-a22e-0171564da1e3" gameVersion="0.9.0.0" version="1.0">
   <cards>
     <card id="72f00be6-f57a-5ddc-93e5-675db83ce692" name="Ashrah">
       <property name="ImageFile" value="1_MK" />

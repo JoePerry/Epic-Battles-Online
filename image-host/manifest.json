@@ -1,6 +1,6 @@
 {
   "gameGuid": "336cc7ef-c808-5f75-a22e-0171564da1e3",
-  "version": "0.8.0.0",
+  "version": "0.9.0.0",
   "images": [
     {
       "setGuid": "1d5ceeb8-0ba5-5728-ae5e-fa97dddb17e6",
@@ -76,6 +76,11 @@
       "setGuid": "1d5ceeb8-0ba5-5728-ae5e-fa97dddb17e6",
       "cardGuid": "32355108-5c72-5ce2-b696-134b1786afd0",
       "sha256": "42407e8d778474eb969a780e0011f570122fd7d388c10c31626a6ef43c728b3a"
+    },
+    {
+      "setGuid": "1d5ceeb8-0ba5-5728-ae5e-fa97dddb17e6",
+      "cardGuid": "35b0c257-c2a8-4d26-99d5-d7ac39482586",
+      "sha256": "1570c955a6898de6fa782ea4c8c27824f73a07f064b2e38c6e59a0685c635248"
     },
     {
       "setGuid": "1d5ceeb8-0ba5-5728-ae5e-fa97dddb17e6",
@@ -1170,7 +1175,7 @@
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
       "cardGuid": "809157f1-879b-5a05-a392-1a62546a2fe2",
-      "sha256": "38f9900f6d8edf7c53671e6a3cec065daa4f16a5394202e65113e72c369ef71b"
+      "sha256": "1dd42bfc4321f1fcd983a93a61552bb961b9b4f7f9b54e70cafd883bbce37ae3"
     },
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
@@ -1275,7 +1280,7 @@
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
       "cardGuid": "b52863bb-320d-5174-be41-5cd0cf4f2b83",
-      "sha256": "47cedc5405dd01691f80bb29b6afbdfe7e5eacc7963c136d0d33bf01d3450226"
+      "sha256": "7a63ed6efedbf046206466f8fc7764323b014fcedbb80549978409c0e8585a61"
     },
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
@@ -1300,7 +1305,7 @@
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
       "cardGuid": "bb973d48-ea34-5229-8ffb-7ded91e85575",
-      "sha256": "95ede1c7f07ea8daa9a1a4d27e3bcfc7ee59d5b4abf2074238b2a25ab455ba3c"
+      "sha256": "42ed07bfeaec21bb079271efbc86604462c560dca2477169abf6914ff91af9e3"
     },
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
@@ -1315,7 +1320,7 @@
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
       "cardGuid": "c311e482-1028-517e-9f84-d0c571bbbe42",
-      "sha256": "a737182d1350a7ceb25beda99f42f2626e7fd679a54eea65e7f9deec85309a0e"
+      "sha256": "b9705587b4cb10f1ef0770c78452ec1b16ec7595673e7a1c0f47b6a88b822044"
     },
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
@@ -2705,7 +2710,7 @@
     {
       "setGuid": "f1d432be-800c-5716-abc5-b9a03e6bc228",
       "cardGuid": "8bd2275d-81d4-5380-8287-7e48c29ca8eb",
-      "sha256": "927d84011ed088ad2441390953168f995af671c084cc384509bc47a8b38b1909"
+      "sha256": "c92a2e6c48e38df5ef5ea9366f38bae1572875ff7b58d56cf0b103bfa081ba4e"
     },
     {
       "setGuid": "f1d432be-800c-5716-abc5-b9a03e6bc228",

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<set name="Tekken" id="f1d432be-800c-5716-abc5-b9a03e6bc228" gameId="336cc7ef-c808-5f75-a22e-0171564da1e3" gameVersion="0.8.0.0" version="1.0">
+<set name="Tekken" id="f1d432be-800c-5716-abc5-b9a03e6bc228" gameId="336cc7ef-c808-5f75-a22e-0171564da1e3" gameVersion="0.9.0.0" version="1.0">
   <cards>
     <card id="59675e86-3763-5231-be2c-7e7a2b61b4c0" name="Back Breaker">
       <property name="ImageFile" value="TK001" />
@@ -347,7 +347,7 @@
       <property name="Cost" value="" />
       <property name="Damage" value="" />
       <property name="Link" value="" />
-      <property name="Text" value="Your rival must discard +1 blocks when discarding blocks to recover. (*) You may change the follow-up of any of your kicks to &quot;Kick.&quot; (*) When you finish a combo that had 3 or more different attacks that hit, draw 2 cards." />
+      <property name="Text" value="Your rival must discard +1 blocks when discarding blocks to recover. (*) You may change the follow-up of any of your kicks to &quot;Kick.&quot; (*)Once per turn when you finish a combo that had 3 or more different attacks that hit, draw 2 cards." />
     </card>
     <card id="9cd5e4e2-db51-5a41-85e8-48ff0d05cd0b" name="Craig Marduk">
       <property name="ImageFile" value="TK030" />
@@ -823,10 +823,10 @@
       <property name="Rarity" value="Common" />
       <property name="Card Type" value="Attack" />
       <property name="Attack" value="High Attack" />
-      <property name="Attack Type" value="" />
-      <property name="Cost" value="" />
-      <property name="Damage" value="" />
-      <property name="Link" value="" />
+      <property name="Attack Type" value="Punch" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="4" />
+      <property name="Link" value="High Attack" />
       <property name="Text" value="Launcher-- Your rival's next attack this turn does -2 damage." />
     </card>
     <card id="0fb0b888-dc38-586b-aa7e-4347fb67d57d" name="Knee Strike">
@@ -2039,7 +2039,7 @@
       <property name="Cost" value="1" />
       <property name="Damage" value="" />
       <property name="Link" value="" />
-      <property name="Text" value="" />
+      <property name="Text" value="Your rival cannot play attacks this turn that share the same trait as any of the attacks in his energy pile. (*) Remove this card. (*) Limit 1 per deck." />
     </card>
     <card id="4fa98979-a48b-5158-a0af-ccf947eb2603" name="Devil Jin">
       <property name="ImageFile" value="TK171" />
@@ -2051,7 +2051,7 @@
       <property name="Cost" value="" />
       <property name="Damage" value="" />
       <property name="Link" value="" />
-      <property name="Text" value="" />
+      <property name="Text" value="Your rival's attacks do -1 damage. (*) Your projectiles gain &quot;Knock Down&quot; and cannot have their costs raised by your rival's effects." />
     </card>
   </cards>
 </set>
