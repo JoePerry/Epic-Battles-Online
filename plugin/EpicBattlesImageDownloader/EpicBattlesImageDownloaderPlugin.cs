@@ -53,6 +53,11 @@ namespace EpicBattlesImageDownloader
         private readonly Button _selected = new Button { Content = "Update Selected Set", MinWidth = 145, Padding = new Thickness(8, 5, 8, 5) };
         private readonly Button _all = new Button { Content = "Update All Sets", MinWidth = 125, Padding = new Thickness(8, 5, 8, 5), Margin = new Thickness(8, 0, 0, 0) };
         private readonly TextBlock _status = new TextBlock { TextWrapping = TextWrapping.Wrap, Margin = new Thickness(0, 8, 0, 0) };
+        private readonly Canvas _progressPanel = new Canvas { Height = 104, Margin = new Thickness(10, 8, 10, 0), Visibility = Visibility.Collapsed };
+        private readonly Border _progressTrail = new Border { Height = 18, Background = new SolidColorBrush(Color.FromRgb(116, 220, 255)), CornerRadius = new CornerRadius(9), Effect = new System.Windows.Media.Effects.DropShadowEffect { Color = Color.FromRgb(35, 170, 255), BlurRadius = 14, ShadowDepth = 0, Opacity = 0.95 } };
+        private readonly Image _progressFireball = new Image { Width = 70, Height = 70, Stretch = Stretch.Uniform };
+        private readonly TextBlock _progressText = new TextBlock { Foreground = Brushes.White, FontSize = 18, FontWeight = FontWeights.Bold, TextAlignment = TextAlignment.Center };
+        private double _progressPercent;
 
         public DownloaderWindow(Catalog catalog)
         {
@@ -78,6 +83,14 @@ namespace EpicBattlesImageDownloader
             var buttons = new StackPanel { Orientation = Orientation.Horizontal, HorizontalAlignment = HorizontalAlignment.Right, Margin = new Thickness(0, 10, 0, 0) };
             DockPanel.SetDock(buttons, Dock.Bottom); root.Children.Add(buttons);
             buttons.Children.Add(_selected); buttons.Children.Add(_all);
+            var progressSource = new BitmapImage(new Uri("pack://application:,,,/EpicBattlesImageDownloader;component/Assets/ryu-hadoken-progress.png"));
+            var authenticSource = new BitmapImage(new Uri("pack://application:,,,/EpicBattlesImageDownloader;component/Assets/ryu-authentic-progress.png"));
+            var ryu = new Image { Source = new CroppedBitmap(authenticSource, new Int32Rect(0, 0, 850, 783)), Width = 132, Height = 100, Stretch = Stretch.Uniform };
+            _progressFireball.Source = new CroppedBitmap(progressSource, new Int32Rect(1740, 75, 432, 574));
+            _progressPanel.Children.Add(_progressTrail); _progressPanel.Children.Add(ryu); _progressPanel.Children.Add(_progressFireball); _progressPanel.Children.Add(_progressText);
+            Canvas.SetLeft(ryu, 0); Canvas.SetTop(ryu, 2); Canvas.SetTop(_progressTrail, 43); Canvas.SetTop(_progressFireball, 17);
+            _progressPanel.SizeChanged += (s, e) => UpdateProgressAnimation();
+            DockPanel.SetDock(_progressPanel, Dock.Bottom); root.Children.Add(_progressPanel);
             _selected.Click += async (s, e) => { var set = _sets.SelectedItem as ImageSet; if (set != null) await UpdateAsync(new[] { set }); };
             _all.Click += async (s, e) => await UpdateAsync(_catalog.Sets);
             _sets.SelectionChanged += (s, e) => _selected.IsEnabled = _sets.SelectedItem != null;
@@ -94,13 +107,37 @@ namespace EpicBattlesImageDownloader
             try
             {
                 _status.Text = "Downloading images...";
-                var result = await Downloader.UpdateAsync(sets);
+                _progressPanel.Visibility = Visibility.Visible;
+                SetProgress(0);
+                var progress = new Progress<DownloadProgress>(p => SetProgress(p.Percent));
+                var result = await Downloader.UpdateAsync(sets, progress);
                 _sets.Items.Refresh();
                 _status.Text = String.Format("Downloaded: {0}. Already current: {1}. Failed: {2}.", result.Downloaded, result.Current, result.Failed);
                 if (result.Failed > 0) MessageBox.Show(_status.Text, Title, MessageBoxButton.OK, MessageBoxImage.Warning);
             }
             catch (Exception ex) { _status.Text = "The image update did not complete."; MessageBox.Show(ex.Message, Title, MessageBoxButton.OK, MessageBoxImage.Error); }
             finally { SetBusy(false); }
+        }
+
+        private void SetProgress(double percent)
+        {
+            _progressPercent = Math.Max(0, Math.Min(100, percent));
+            _progressText.Text = String.Format("{0:0}%", _progressPercent);
+            UpdateProgressAnimation();
+        }
+
+        private void UpdateProgressAnimation()
+        {
+            if (_progressPanel.ActualWidth <= 0 || _progressPanel.ActualHeight <= 0) return;
+            const double start = 108;
+            const double fireballRadius = 35;
+            var end = Math.Max(start, _progressPanel.ActualWidth - fireballRadius);
+            var position = start + ((_progressPercent / 100.0) * (end - start));
+            _progressTrail.Width = Math.Max(0, position - start);
+            Canvas.SetLeft(_progressTrail, start);
+            Canvas.SetLeft(_progressFireball, position - fireballRadius);
+            _progressText.Width = _progressPanel.ActualWidth;
+            Canvas.SetLeft(_progressText, 0); Canvas.SetTop(_progressText, 40);
         }
 
         private void SetBusy(bool busy) { _sets.IsEnabled = !busy; _selected.IsEnabled = !busy && _sets.SelectedItem != null; _all.IsEnabled = !busy; }
@@ -136,10 +173,14 @@ namespace EpicBattlesImageDownloader
             return new Catalog(sets.OrderBy(s => s.Name).ToList());
         }
 
-        public static async Task<Result> UpdateAsync(IEnumerable<ImageSet> sets)
+        public static async Task<Result> UpdateAsync(IEnumerable<ImageSet> sets, IProgress<DownloadProgress> progress)
         {
             var result = new Result();
-            foreach (var set in sets)
+            var selectedSets = sets.ToList();
+            var total = selectedSets.Sum(s => s.Images.Count);
+            var processed = 0;
+            if (progress != null) progress.Report(new DownloadProgress(0));
+            foreach (var set in selectedSets)
             {
                 Directory.CreateDirectory(set.ImageDirectory);
                 foreach (var image in set.Images)
@@ -148,14 +189,22 @@ namespace EpicBattlesImageDownloader
                     var temporary = target + ".download";
                     try
                     {
-                        if (File.Exists(target) && String.Equals(Hash(File.ReadAllBytes(target)), image.Sha256, StringComparison.OrdinalIgnoreCase)) { result.Current++; continue; }
-                        var bytes = await Client.GetByteArrayAsync(image.Url);
-                        if (!String.Equals(Hash(bytes), image.Sha256, StringComparison.OrdinalIgnoreCase)) throw new InvalidDataException("Checksum mismatch for " + image.CardId);
-                        File.WriteAllBytes(temporary, bytes);
-                        if (File.Exists(target)) File.Delete(target);
-                        File.Move(temporary, target); result.Downloaded++;
+                        if (File.Exists(target) && String.Equals(Hash(File.ReadAllBytes(target)), image.Sha256, StringComparison.OrdinalIgnoreCase)) result.Current++;
+                        else
+                        {
+                            var bytes = await Client.GetByteArrayAsync(image.Url);
+                            if (!String.Equals(Hash(bytes), image.Sha256, StringComparison.OrdinalIgnoreCase)) throw new InvalidDataException("Checksum mismatch for " + image.CardId);
+                            File.WriteAllBytes(temporary, bytes);
+                            if (File.Exists(target)) File.Delete(target);
+                            File.Move(temporary, target); result.Downloaded++;
+                        }
                     }
                     catch { if (File.Exists(temporary)) File.Delete(temporary); result.Failed++; }
+                    finally
+                    {
+                        processed++;
+                        if (progress != null) progress.Report(new DownloadProgress(total == 0 ? 100 : (processed * 100.0 / total)));
+                    }
                 }
             }
             return result;
@@ -182,4 +231,5 @@ namespace EpicBattlesImageDownloader
     internal sealed class Manifest { public string gameGuid { get; set; } public List<ManifestImage> images { get; set; } }
     internal sealed class ManifestImage { public string cardGuid { get; set; } public string setGuid { get; set; } public string sha256 { get; set; } }
     internal sealed class Result { public int Downloaded { get; set; } public int Current { get; set; } public int Failed { get; set; } }
+    internal sealed class DownloadProgress { public DownloadProgress(double percent) { Percent = percent; } public double Percent { get; private set; } }
 }

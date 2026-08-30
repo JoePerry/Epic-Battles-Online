@@ -23,5 +23,7 @@
   </ItemGroup>
   <ItemGroup><Compile Include="EpicBattlesImageDownloaderPlugin.cs" /></ItemGroup>
   <ItemGroup><Resource Include="Assets\poster-mvc1_big.jpg" /></ItemGroup>
+  <ItemGroup><Resource Include="Assets\ryu-hadoken-progress.png" /></ItemGroup>
+  <ItemGroup><Resource Include="Assets\ryu-authentic-progress.png" /></ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
