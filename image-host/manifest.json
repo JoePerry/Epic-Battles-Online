@@ -1,6 +1,6 @@
 {
   "gameGuid": "336cc7ef-c808-5f75-a22e-0171564da1e3",
-  "version": "0.9.0.1",
+  "version": "0.9.0.2",
   "images": [
     {
       "setGuid": "1d5ceeb8-0ba5-5728-ae5e-fa97dddb17e6",
@@ -1159,6 +1159,11 @@
     },
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
+      "cardGuid": "6b104f6c-353e-51f2-ba16-7a044995c721",
+      "sha256": "1cca8030ff63ed098b3fe6876c96c7c7ad79ddaefdba0399466371de040e0028"
+    },
+    {
+      "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
       "cardGuid": "6ce3719d-5bfe-5b7c-93b5-06a25c9e57b0",
       "sha256": "8890f7e9479f9856d0436fc0bf16851cdc3ac6e13756a0a0cf688ac383f0c273"
     },
@@ -1326,6 +1331,11 @@
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
       "cardGuid": "ce968de4-39a4-5521-93ee-e0ecfcc5802a",
       "sha256": "3d2221f26e9e6b92ead103164f376163968f5b051c8d4340b1fa95428ec8b329"
+    },
+    {
+      "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
+      "cardGuid": "d3d7a7d8-dad2-5e35-bf68-2a11046029ca",
+      "sha256": "dbc8fec036c9c83a3e8042fdaab0ba65ba9bef33ab6b977e79b5a126d4e2e474"
     },
     {
       "setGuid": "c7b0ae37-b22a-584c-909a-0c7396e2082c",
