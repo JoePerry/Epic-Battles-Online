@@ -145,7 +145,7 @@ namespace EpicBattlesImageDownloader
 
     internal static class Downloader
     {
-        private const string BaseUrl = "https://octgn-multi-game-feed.awesome-mole.workers.dev/assets/epic-battles-online/";
+        internal const string BaseUrl = "https://octgn-multi-game-feed.awesome-mole.workers.dev/assets/epic-battles-online/";
         private static readonly HttpClient Client = CreateClient();
         private static HttpClient CreateClient()
         {
@@ -225,7 +225,7 @@ namespace EpicBattlesImageDownloader
     {
         private RemoteImage(Guid cardId, string url, string sha256) { CardId = cardId; Url = url; Sha256 = sha256; }
         public static RemoteImage Create(Guid setId, ManifestImage item) { Guid cardId; if (!Guid.TryParse(item.cardGuid, out cardId)) throw new InvalidDataException("Invalid card ID in image catalog."); return new RemoteImage(cardId, Base(setId, cardId, item.sha256), item.sha256); }
-        private static string Base(Guid setId, Guid cardId, string sha256) { return BaseUrl + "images/" + setId + "/" + cardId + ".jpg?v=" + Uri.EscapeDataString(sha256 ?? String.Empty); }
+        private static string Base(Guid setId, Guid cardId, string sha256) { return Downloader.BaseUrl + "images/" + setId + "/" + cardId + ".jpg?v=" + Uri.EscapeDataString(sha256 ?? String.Empty); }
         public Guid CardId { get; private set; } public string Url { get; private set; } public string Sha256 { get; private set; }
     }
     internal sealed class Manifest { public string gameGuid { get; set; } public List<ManifestImage> images { get; set; } }
